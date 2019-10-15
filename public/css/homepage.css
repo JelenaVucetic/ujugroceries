@@ -1,0 +1,118 @@
+body {
+    font-family: 'Roboto Slab', serif;
+}
+.myHeader {
+    background-image: url("/images/Hljebslider.jpg");
+    margin-bottom: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    padding-top: 192px;
+    background-color: #191970;
+    color: white;   
+}
+
+.myHeader h1 {
+    line-height: 88px;
+}
+
+.myHeader p {
+    padding-top: 10px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    background-color: #ed6a32;
+    border: none;
+    border-radius: 5px;
+    margin-top: 130px;
+
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 250px;
+    flex-wrap: wrap;
+}
+
+.title {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.title span {
+    color: #ed6b32e3;
+}
+
+.title p {
+    color: #A9A9A9;
+}
+
+.products {
+    margin: 50px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.products div {
+    padding: 50px;
+    margin: 10px;
+    background-color: #191970;
+    border-radius: 19px;
+    height: auto;
+    text-align: center;
+}
+
+.products h2 {
+    color: white;
+}
+
+.aboutuju {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.aboutuju h2 {
+    color: #191970; 
+}
+
+.aboutuju p {
+    color: #A9A9A9;
+    padding-top: 30px;
+}
+
+.steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.part img {
+    width: 150px;
+    height: 150px;
+}
+
+.part div {
+    width: 40px;
+    height: 40px;
+    background: green;
+    text-align: center;
+    border-radius: 50px;
+    color: white;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+.part p {
+   font-size: 14px;
+   text-align: center;
+}
