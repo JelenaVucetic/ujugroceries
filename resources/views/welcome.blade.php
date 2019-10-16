@@ -1,5 +1,9 @@
 @extends('layouts.master')
 
+@section('modalcss')
+    <link rel="stylesheet" href="/css/modal.css">
+@endsection
+
 @section('content')   
     <div class="jumbotron text-center myHeader" style="margin-bottom:0">
         <h1>MI DOSTAVLJAMO NAMIRNICE KOJE VAM SVAKOG JUTRA TREBAJU</h1>
@@ -20,11 +24,22 @@
             <div class="products">
                 @foreach ($products as $product)
                 <div>
-                    <a href="/products/{{ $product->id }}"> <h2>{{ $product-> name}}</h2> </a>
+                    <img src="/images/{{ $product-> image }}" alt="">
+                    <h3>{{ $product->name}}</h3>
+                    <p> {{ $product->description }}</p>
                 </div>
                 @endforeach
             </div>
             
+            <div class="ordering">
+                <button id="myBtn"> NARUČI ŽELJENE NAMIRNICE</button>
+                <p>...i ujutru će biti dostavljene na vratima vašeg doma.</p>
+            </div>
+
+            
+            @include('layouts.modal')
+            
+
             <div class="jumbotron">
                 <div class="aboutuju">
                     <h2>KAKO UJU FUNKCIONIŠE?</h2>      
@@ -56,4 +71,8 @@
         </div>
     </div>
 </div>
+@endsection
+
+@section('modaljs')
+    <script src="/js/modal.js" defer></script>
 @endsection

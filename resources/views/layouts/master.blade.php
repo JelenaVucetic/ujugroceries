@@ -23,6 +23,8 @@
         <!-- Styles -->
         <link rel="stylesheet" href="/css/header.css">
         <link rel="stylesheet" href="/css/homepage.css">
+        @yield('modalcss')
+        @yield('modaljs')
     </head>
     <body>
         @include('layouts.header')

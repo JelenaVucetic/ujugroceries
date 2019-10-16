@@ -1,0 +1,112 @@
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 999; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 280px;
+    top:-5px;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.modal img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.modal h3 {
+    text-align: center;
+}
+
+.myForm {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.left, .right {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+}
+
+
+
+.modalbtn {
+    margin: 20px 0px;
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    width: 250px;
+}
+
+.left input {
+    padding: 20px;
+    text-align: center;
+    width: 220px;
+    float: right;
+    margin-left: auto;
+    border: 1px solid 	#191970;
+    font-size: 20px;
+}
+
+
+textarea {
+    width: 330px;
+}
+
+.right input {
+    padding: 20px;
+    text-align: center;
+    width: 220px;
+    border: 1px solid #191970;
+    font-size: 20px;
+}
+
+
+.personalInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.personalInfo input {
+    width: 375px;
+    padding: 15px;
+    border: 1px solid 	#191970;
+}
+
+.personalInfo p {
+    color: 	#808080
+}
