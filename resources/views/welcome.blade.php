@@ -2,6 +2,7 @@
 
 @section('modalcss')
     <link rel="stylesheet" href="/css/modal.css">
+    <link rel="stylesheet" href="/css/animated.css">
 @endsection
 
 @section('content')   
@@ -32,14 +33,13 @@
             </div>
             
             <div class="ordering">
-                <button id="myBtn"> NARUČI ŽELJENE NAMIRNICE</button>
+                <button id="myBtn" onclick="openModal('mymodal');"> NARUČI ŽELJENE NAMIRNICE</button>
                 <p>...i ujutru će biti dostavljene na vratima vašeg doma.</p>
             </div>
 
-            
             @include('layouts.modal')
-            
-
+                
+  
             <div class="jumbotron">
                 <div class="aboutuju">
                     <h2>KAKO UJU FUNKCIONIŠE?</h2>      

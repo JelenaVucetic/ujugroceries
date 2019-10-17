@@ -11,6 +11,7 @@
 
         <!-- Latest compiled JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
         <title>UJU</title>
 
         <!-- Fonts -->
@@ -30,4 +31,5 @@
         @include('layouts.header')
         @yield('content')
     </body>
+
 </html>
