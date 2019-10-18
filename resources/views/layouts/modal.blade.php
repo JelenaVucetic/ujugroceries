@@ -1,27 +1,31 @@
-<div id="mymodal" class="mymodal animated bounceInUp">
+<div id="myModal" class="mymodal animated slideInUp">
      <!-- Modal content -->
      <div class="modal-content">
-        <span class="close"  onclick="openModal('mymodal');">&times;</span>
-        
+        <span class="close">&times;</span>
+
         <img src="/images/Logo_sideways.svg" alt="logo">
         <h3>1.Odaberite željene namirnice za dostavu</h3>
 
         <form action="">
             <div class="myForm">
             <div class="left">
-                <input type="text" placeholder="Hljeb">
-                <textarea name="" rows="4" placeholder="Unesite željenu/e vrste hljeba."></textarea>
-                <input type="text" placeholder="Mlijeko">
+                <label onclick="showBreadTextarea()" for="bread">Hljeb</label>
+                <textarea name="" rows="4" placeholder="Unesite željenu/e vrste hljeba."
+                             id="showbread" style="display:none" class="hide"></textarea>
+                <label onclick="showMilkTextarea()" for="milk">Mlijeko</label>
                 <textarea name="" rows="4" placeholder="Unesite željenu/e vrste mlijeka.
--Proizvođač, masnoća"></textarea>
+-Proizvođač, masnoća"
+                            id="showmilk" style="display:none" class="hide"></textarea>
             </div>
 
             <div class="right">
-                    <input type="text" placeholder="Jogurt">
-                    <textarea name="" rows="4" placeholder="Unesite željenu vrstu jogurta (Proizvođač, masnoća...)"></textarea>
-                    <input type="text" placeholder="Novine">
-                    <textarea name="" rows="4" placeholder="Unesite željenu/e novine."></textarea>
-            </div>
+                    <label onclick="showYogurtTextarea()" for="yogurt">Jogurt</label>
+                    <textarea name="" rows="4" placeholder="Unesite željenu vrstu jogurta (Proizvođač, masnoća...)"
+                                     id="showyogurt" style="display:none" class="hide"></textarea>
+                    <label onclick="showPapersTextarea()" for="papers">Novine</label>
+                    <textarea name="" rows="4" placeholder="Unesite željenu/e novine."
+                                     id="showpapers" style="display:none" class="hide"></textarea>
+            </div>  
         </div>
 
             <h3>2.Ispunite informacije o dostavi</h3>
@@ -38,9 +42,27 @@
                 </div>
 
                 <div class="time">
-                    <label for="time">Željeno vrijeme dostave: </label>
-                  <span>OD: </span><input  type="time" value="13:00" step="900">
-                  <span>DO: </span><input  type="time" value="13:00" step="900">
+                <label for="time">Željeno vrijeme dostave: </label>
+                  <span>OD: </span>
+                  <select>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                  <span>DO: </span>
+                  <select>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
                 </div>
                 <button class="modalbtn">Naruči</button>
                 <p>***Cijena namirnica su za 10% visočije u odnosu na cijnu u marketima.</p>

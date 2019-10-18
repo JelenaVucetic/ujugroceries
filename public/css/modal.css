@@ -8,7 +8,7 @@
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    background-color: rgba(255, 255, 255, 0.692); /* Black w/ opacity */
     font-family: 'Roboto Slab', serif;
     display: none;
 }
@@ -49,8 +49,10 @@
 }
 
 .myForm {
-    display: flex;
-    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
     padding: 30px;
 }
 
@@ -70,29 +72,35 @@
     width: 250px;
 }
 
-.left input {
-    padding: 20px;
+.left label {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 150px;
     text-align: center;
-    width: 220px;
     float: right;
-    margin-left: auto;
-    border: 1px solid 	#191970;
-    font-size: 20px;
+}
+
+.left label:hover {
+    background-color:rgb(238, 195, 85) ;
 }
 
 
 textarea {
     width: 330px;
+    margin-left: -90px;
 }
 
-.right input {
-    padding: 20px;
+.right label {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 150px;
     text-align: center;
-    width: 220px;
-    border: 1px solid #191970;
-    font-size: 20px;
+    float: right;
 }
 
+.right label:hover {
+    background-color:rgb(238, 195, 85) ;
+}
 
 .personalInfo {
     display: flex;
@@ -117,9 +125,8 @@ textarea {
     align-items: baseline;
 }
 
-.time input {
-    width: 130px;
-    height: 50px;
+.time select {
+    width: 50px;
 }
 
 .time span {
