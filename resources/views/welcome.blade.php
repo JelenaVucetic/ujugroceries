@@ -22,13 +22,26 @@
                 <p>Po vašoj želji, a ponudu pogledajte ispod.</p>
             </div>
             <div class="products">
-                @foreach ($products as $product)
                 <div>
-                    <img src="/images/{{ $product-> image }}" alt="">
-                    <h3>{{ $product->name}}</h3>
-                    <p> {{ $product->description }}</p>
+                    <img src="/images/Bread.png" alt="">
+                    <h3>Hljeb</h3>
+                    <p> Na čekautu možete navesti koji hljeb želite.</p>
                 </div>
-                @endforeach
+                <div>
+                    <img src="/images/Milk.png" alt="">
+                    <h3>Mlijeko</h3>
+                    <p>Na čekautu možete navesti proizvođača i masnoću mlijeka.</p>
+                </div>
+                <div>
+                    <img src="/images/yogurt.png" alt="">
+                    <h3>Jogurt</h3>
+                    <p>Na čekautu možete navesti koji jogurt želite.</p>
+                </div>
+                <div>
+                    <img src="/images/Novine.png" alt="">
+                    <h3>Novine</h3>
+                    <p>Na čekautu možete navesti koje novine želite.</p>
+                </div>
             </div>
             
             <div class="ordering">

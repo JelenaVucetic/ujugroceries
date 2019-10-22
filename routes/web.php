@@ -12,9 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome' , [
-        'products' => App\Product::latest()->get()
-    ]);
+    return view('welcome');
 });
 
 
@@ -24,9 +22,9 @@ Route::get('/about', function () {
 
 //Ordrer is important
 
-Route::get('/products', 'ProductController@index');
-Route::post('/products', 'ProductController@store');
-Route::get('/products/create', 'ProductController@create');
-Route::get('/products/{product}', 'ProductController@show');
-Route::get('/products/{product}/edit', 'ProductController@edit');
-Route::put('/products/{product}', 'ProductController@update');
+// Route::get('/products', 'ProductController@index');
+// Route::post('/products', 'ProductController@store');
+// Route::get('/products/create', 'ProductController@create');
+// Route::get('/products/{product}', 'ProductController@show');
+// Route::get('/products/{product}/edit', 'ProductController@edit');
+// Route::put('/products/{product}', 'ProductController@update');
