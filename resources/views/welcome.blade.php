@@ -6,9 +6,9 @@
 
 @section('content')   
     <div class="jumbotron text-center myHeader" style="margin-bottom:0">
-        <h1>MI DOSTAVLJAMO NAMIRNICE KOJE VAM SVAKOG JUTRA TREBAJU</h1>
+        <h1>MI DOSTAVLJAMO NAMIRNICE  <br>   KOJE VAM SVAKOG JUTRA TREBAJU</h1>
         <p>Hljeb, mlijeko, jogurt i/ili novine</p> 
-        <button>UJU PAKETI</button>
+        <button id="ujupaketi">UJU PAKETI</button>
         <div class="info">
             <p>06-12h DOSTAVA</p>
             <p>ONLINE/TEL. PORUČIVANJE</p>

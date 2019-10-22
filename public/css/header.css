@@ -70,3 +70,29 @@ nav {
 .email {
     color:#A9A9A9;
 }
+
+
+@media(max-width: 670px) {
+    .topHeader {
+        flex-direction: column;
+    }
+    .meta {
+        justify-content: inherit;
+    }
+
+    .truncate {
+    white-space: nowrap;
+    text-overflow: clip;
+    width: 85px;
+    overflow: hidden;
+    }
+
+    #myNavbar ul {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .myNav li {
+         border-right: none; 
+    }
+}

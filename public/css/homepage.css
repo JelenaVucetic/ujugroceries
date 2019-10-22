@@ -2,13 +2,13 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 .myHeader {
-    background-image: url("/images/Hljeb slider.jpg");
+    background-image: url("/images/Hljeb-slider.jpg");
     margin-bottom: 0;
     background-size: cover;
     background-repeat: no-repeat;
     height: auto;
     padding-top: 192px;
-    color: white;   
+    color: white !important;   
 }
 
 .myHeader h1 {
@@ -149,4 +149,32 @@ button {
 .part p {
    font-size: 14px;
    text-align: center;
+}
+
+
+
+
+
+@media(max-width: 670px) {
+    .myHeader h1 {
+        line-height: 36px;
+        font-size: 18px;
+    }
+
+    .info {
+        padding-top: 81px;
+    }
+
+    .info p {
+        font-size: 16px !important;
+        line-height: 0;
+    }
+
+    #ujupaketi {
+        margin-top: 50px !important;
+    }
+
+    .title h1 {
+            font-size: 30.5px;
+    }
 }

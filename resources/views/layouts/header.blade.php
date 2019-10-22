@@ -1,7 +1,7 @@
 <nav class="navbar navbar-fixed-top" id="myNav">
         <div class="topHeader">
                 <div class="meta">
-                    <p>Pozovite nas za jutarnju narudžbinu namirnica</p>
+                    <p class="truncate">Pozovite nas za jutarnju narudžbinu namirnica</p>
                     <p> <i class="fa fa-phone" aria-hidden="true" style="color:green; font-size: 18px; font-weight: bold; padding-right: 5px;"></i>069 251 455</p>
                 </div>
                 <div class="email"> poruci@ujudelivery.me</div>
