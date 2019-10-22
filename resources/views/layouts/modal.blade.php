@@ -9,20 +9,20 @@
         <form action="">
             <div class="myForm">
             <div class="left">
-                <label onclick="showBreadTextarea()" for="bread">Hljeb</label>
+                <label id="bread" onclick="showBreadTextarea()" for="bread"> Hljeb</label>
                 <textarea name="" rows="4" placeholder="Unesite željenu/e vrste hljeba."
                              id="showbread" style="display:none" class="hide"></textarea>
-                <label onclick="showMilkTextarea()" for="milk">Mlijeko</label>
+                <label id="milk" onclick="showMilkTextarea()" for="milk">Mlijeko</label>
                 <textarea name="" rows="4" placeholder="Unesite željenu/e vrste mlijeka.
 -Proizvođač, masnoća"
                             id="showmilk" style="display:none" class="hide"></textarea>
             </div>
 
             <div class="right">
-                    <label onclick="showYogurtTextarea()" for="yogurt">Jogurt</label>
+                    <label id="yogurt" onclick="showYogurtTextarea()" for="yogurt">Jogurt</label>
                     <textarea name="" rows="4" placeholder="Unesite željenu vrstu jogurta (Proizvođač, masnoća...)"
                                      id="showyogurt" style="display:none" class="hide"></textarea>
-                    <label onclick="showPapersTextarea()" for="papers">Novine</label>
+                    <label id="papers" onclick="showPapersTextarea()" for="papers">Novine</label>
                     <textarea name="" rows="4" placeholder="Unesite željenu/e novine."
                                      id="showpapers" style="display:none" class="hide"></textarea>
             </div>  

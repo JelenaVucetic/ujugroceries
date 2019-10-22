@@ -42,9 +42,11 @@ function showBreadTextarea() {
    if(selectedobj.className=='hide'){  //check if classname is hide 
      selectedobj.style.display = "block";
      selectedobj.className ='show';
+     document.getElementById('bread').style.backgroundColor = 'rgb(238, 195, 85)';
    }else{
      selectedobj.style.display = "none";
      selectedobj.className ='hide';
+     document.getElementById('bread').style.backgroundColor = 'white';
   }
  }
 
@@ -54,9 +56,11 @@ function showBreadTextarea() {
    if(selectedobj.className=='hide'){  //check if classname is hide 
      selectedobj.style.display = "block";
      selectedobj.className ='show';
+     document.getElementById('milk').style.backgroundColor = 'rgb(238, 195, 85)';
    }else{
      selectedobj.style.display = "none";
      selectedobj.className ='hide';
+     document.getElementById('milk').style.backgroundColor = 'white';
   }
  }
 
@@ -66,9 +70,11 @@ function showBreadTextarea() {
    if(selectedobj.className=='hide'){  //check if classname is hide 
      selectedobj.style.display = "block";
      selectedobj.className ='show';
+     document.getElementById('yogurt').style.backgroundColor = 'rgb(238, 195, 85)';
    }else{
      selectedobj.style.display = "none";
      selectedobj.className ='hide';
+     document.getElementById('yogurt').style.backgroundColor = 'white';
   }
  }
 
@@ -78,8 +84,11 @@ function showBreadTextarea() {
    if(selectedobj.className=='hide'){  //check if classname is hide 
      selectedobj.style.display = "block";
      selectedobj.className ='show';
+     document.getElementById('papers').style.backgroundColor = 'rgb(238, 195, 85)';
    }else{
      selectedobj.style.display = "none";
      selectedobj.className ='hide';
+     document.getElementById('papers').style.backgroundColor = 'white';
   }
  }
+
