@@ -107,26 +107,33 @@
 
                 <div class="time">
                 <label for="time">Željeno vrijeme dostave: </label>
-                  <span>OD: </span>
-                  <select>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                        <option value="9">9</option>
-                        <option value="10">10</option>
-                        <option value="11">11</option>
-                        <option value="12">12</option>
-                    </select>
-                  <span>DO: </span>
-                  <select>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                        <option value="9">9</option>
-                        <option value="10">10</option>
-                        <option value="11">11</option>
-                        <option value="12">12</option>
-                    </select>
+                <div class="ordertime">
+                    <div>
+                            <span>OD: </span>
+                            <select>
+                                  <option value="6">6</option>
+                                  <option value="7">7</option>
+                                  <option value="8">8</option>
+                                  <option value="9">9</option>
+                                  <option value="10">10</option>
+                                  <option value="11">11</option>
+                                  <option value="12">12</option>
+                              </select>
+                    </div>
+                    <div>
+                            <span>DO: </span>
+                            <select>
+                                  <option value="6">6</option>
+                                  <option value="7">7</option>
+                                  <option value="8">8</option>
+                                  <option value="9">9</option>
+                                  <option value="10">10</option>
+                                  <option value="11">11</option>
+                                  <option value="12">12</option>
+                              </select>
+                    </div>
+                </div>
+                  
                 </div>
                 <button class="modalbtn">Naruči</button>
                 <p>***Cijena namirnica su za 10% visočije u odnosu na cijnu u marketima.</p>

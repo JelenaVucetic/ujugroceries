@@ -117,6 +117,7 @@ textarea {
 .time {
     margin-top: 30px;
     display: flex;
+    flex-direction: column;
     align-items: baseline;
 }
 
@@ -165,3 +166,66 @@ textarea {
     margin:10px;
 }
 
+@media(max-width:670px) {
+    #myModal h3 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    #myModal img {
+        width: 200px;
+        margin-bottom: 20px;
+    }
+    #accordionExample {
+        flex-direction: column;
+    }
+    .myForm {
+         margin: 0; 
+         width: 0; 
+        padding: 0;
+    }
+
+    .myForm h3 {
+        width: 165px;
+    }
+
+    .mymodalbtn {
+        width: 150px;
+    }
+
+    textarea {
+        width: 75%;
+    }
+
+    .personalInfo {
+        align-items: flex-start;
+    }
+
+    .personalInfo input {
+        width: 165px;
+    }
+
+    .personalInfo p {
+        width: 170px;
+    }
+
+    .modalbtn {
+        width: 150px;
+    }
+
+    .time {
+        flex-direction: row;
+    }
+
+    .time span {
+         margin-left: 10px; 
+    }
+
+    .time select {
+        margin-right: 10px; 
+    }
+    .ordertime {
+        display: flex;
+        margin-left: 10px;
+    }
+}
