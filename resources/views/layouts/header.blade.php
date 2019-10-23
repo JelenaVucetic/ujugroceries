@@ -13,7 +13,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>                        
         </button>
-        <a class="navbar-brand" href="#"> <img class="logo" src="/images/Logo_sideways.svg" alt=""> </a>
+        <a class="navbar-brand" href="/"> <img class="logo" src="/images/Logo_sideways.svg" alt=""> </a>
       </div>
       <div class="collapse navbar-collapse navbar-right myNav" id="myNavbar">
         <ul class="nav navbar-nav">
