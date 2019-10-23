@@ -73,18 +73,17 @@ nav {
 
 
 @media(max-width: 670px) {
-    .topHeader {
-        flex-direction: column;
+
+    .myHeader {
+        padding-top: 20px !important;
     }
+
     .meta {
         justify-content: inherit;
     }
 
     .truncate {
-    white-space: nowrap;
-    text-overflow: clip;
-    width: 85px;
-    overflow: hidden;
+    display: none;
     }
 
     #myNavbar ul {

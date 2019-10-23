@@ -3,9 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Styles -->
-        <link rel="stylesheet" href="/css/header.css">
-        <link rel="stylesheet" href="/css/homepage.css">
+       
         
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -25,6 +23,9 @@
         <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
+         <!-- Styles -->
+         <link rel="stylesheet" href="/css/header.css">
+         <link rel="stylesheet" href="/css/homepage.css">
 
         @yield('modalcss')
         @yield('modaljs')
