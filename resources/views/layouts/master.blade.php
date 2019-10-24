@@ -26,6 +26,7 @@
          <!-- Styles -->
          <link rel="stylesheet" href="/css/header.css">
          <link rel="stylesheet" href="/css/homepage.css">
+         <link rel="stylesheet" href="/css/footer.css">
 
         @yield('modalcss')
         @yield('modaljs')
@@ -33,6 +34,7 @@
     <body>
         @include('layouts.header')
         @yield('content')
+        @include('layouts.footer')
     </body>
 
 </html>

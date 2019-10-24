@@ -73,7 +73,9 @@ nav {
 
 
 @media(max-width: 670px) {
-
+    .topHeader {
+        width: 106%;
+    }
     .myHeader {
         padding-top: 20px !important;
     }
@@ -86,6 +88,9 @@ nav {
     display: none;
     }
 
+    #myNav {
+        margin-right: 0;
+    }
     #myNavbar ul {
         display: flex !important;
         flex-direction: column !important;

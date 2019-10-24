@@ -8,7 +8,7 @@
     <div class="jumbotron text-center myHeader" style="margin-bottom:0">
         <h1>MI DOSTAVLJAMO NAMIRNICE  <br>   KOJE VAM SVAKOG JUTRA TREBAJU</h1>
         <p>Hljeb, mlijeko, jogurt i/ili novine</p> 
-        <button id="ujupaketi">UJU PAKETI</button>
+        <button id="ujupaketi">UJU PAKETI NAMIRNICA</button>
         <div class="info">
             <p>06-12h DOSTAVA</p>
             <p>ONLINE/TEL. PORUČIVANJE</p>
@@ -52,9 +52,9 @@
             @include('layouts.modal')
                 
   
-            <div class="jumbotron">
+            <div class="jumbotron about">
                 <div class="aboutuju">
-                    <h2>KAKO UJU FUNKCIONIŠE?</h2>      
+                    <h1>KAKO UJU FUNKCIONIŠE?</h1>      
                     <p>Pratite sledeće korake</p>
                 </div>
                 <div class="steps">
@@ -80,9 +80,48 @@
                     </div>
                 </div>
             </div>
+    </div>
+
+    <div class="whyus">
+        <div class="whyusTitle">
+            <h1>ZAŠTO NAS LJUDI VOLE?</h1>
+            <p>Najpopularniji razlozi</p>
+        </div>
+
+        <div class="reasons">  
+            <div class="reasonsLeft">
+                <div>
+                    <p>Zato što dostavljamo najsvježije namirnice u gradu.</p>
+                </div>
+                <div>
+                    <p>Zato što garantujemo dostavu na virjeme.</p>
+                </div>
+                <div>
+                    <p>Zato što je kupovina najpotrebniji namirnica preko UJU veb-sajta veoma jednostavna.</p>
+                </div>
+            </div>
+
+            <div class="reasonsRight">
+                <div>
+                    <p>Zato što vam štedimo vrijeme potrošeno na kupovinu namirnica ujutru.</p>
+                </div>
+                <div>
+                    <p>Zato što možete doručkovati u pidžami, kod kuće i prije posla.</p>
+                </div>
+                <div>
+                    <p>Zato što možemo olakšati osobama koje nijesu u mogućnosti.</p>
+                </div>
+            </div>
         </div>
     </div>
-</div>
+
+    <div class="jumbotron coupons">
+        <h1>Ukoliko želite da osvojite promo kupone, prijavite se na naš newsletter:</h1>
+        <form action="">
+            <input type="email" placeholder="Vaša Email adresa">
+            <button>Potvrdi</button>
+        </form>
+    </div>
 @endsection
 
 @section('modaljs')

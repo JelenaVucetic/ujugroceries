@@ -167,6 +167,10 @@ textarea {
 }
 
 @media(max-width:670px) {
+    .modal-content {
+        width: 88%;
+        margin: 0;
+    }
     #myModal h3 {
         font-size: 16px;
         line-height: 20px;
@@ -186,19 +190,20 @@ textarea {
     }
 
     .myForm h3 {
-        width: 165px;
+        width: 265px;
     }
 
     .mymodalbtn {
-        width: 150px;
+        width: 200px;
     }
 
     textarea {
-        width: 75%;
+        width: 100%;
     }
 
     .personalInfo {
         align-items: flex-start;
+        margin-left: 50px;
     }
 
     .personalInfo input {
@@ -206,7 +211,7 @@ textarea {
     }
 
     .personalInfo p {
-        width: 170px;
+        width: 190px;
     }
 
     .modalbtn {
@@ -227,5 +232,9 @@ textarea {
     .ordertime {
         display: flex;
         margin-left: 10px;
+    }
+
+    .card {
+        margin-left: 36px;
     }
 }

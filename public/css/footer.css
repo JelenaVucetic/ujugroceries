@@ -1,0 +1,32 @@
+
+footer {
+    background-color: #d9d872;
+    text-align: center;
+    padding: 50px;
+}
+
+.footerContact {
+    padding: 50px;
+    font-size: 24px;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+
+@media(max-width:670px) {
+    .footerContact {
+        padding: 50px 0 ;
+        font-size: 17px ;    
+    }
+
+    footer {
+        margin-left: -20px; 
+       margin-right: -20px;
+    }
+}
