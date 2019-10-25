@@ -1,0 +1,117 @@
+.groceriesHeader {
+    background-image: url("/images/Namirnice-slider.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 730px;
+    background-position: 100% 100%;
+    margin-bottom: 0;
+}
+
+.groceriesTitle {
+    margin: 80px 0;
+    text-align: center;
+}
+
+.groceriesTitle h1{
+    color: #ed674a;
+    font-size: 65px;
+    font-weight: 100;
+    margin-top: 60px;
+}
+
+.groceriesTitle p {
+  color: #454d66;
+  font-size: 16px;
+  width: 60%;
+  text-align: justify;
+  margin: auto;
+}
+
+.products {
+    margin: 50px 0px;
+    margin-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.products div {
+    margin: 10px 30px;
+    background-color: #d9d872;
+    border-radius: 19px;
+    height: auto;
+    text-align: center;
+}
+
+.products h3 {
+    background-color: #ed674a;
+    color: white;
+    font-weight: 100;
+    width: 110px;
+    margin-left: 70px;
+    border-radius: 10px;
+    margin-top: 26px;
+    font-size: 22px;
+}
+
+.products img {
+    width: 100%;
+    height: 300px;
+}
+
+.products p {
+    width: 263px;
+    padding: 10px;
+}
+
+.ordering {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#groceriesBtn {
+    width: 470px;
+    height: 65px;
+    background-color: #ed674a;
+    border: none;
+    border-radius: 5px;
+    margin-top: 100px;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+
+.ordering p {
+    padding: 35px;
+    color: #bbbbbb;
+}
+
+
+@media(min-width:1800px) {
+    .groceriesHeader {
+        height: 830px;
+    }
+    
+}
+
+@media(max-width:670px) {
+
+    .groceriesHeader {
+        height: 200px;
+        margin: 0 -20px;
+    }
+
+    .groceriesTitle h1{
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: -40px;
+    }
+
+    #groceriesBtn {
+        width: 270px;
+        font-size: 16px;
+        margin-top: 50px;
+    }
+    
+
+}

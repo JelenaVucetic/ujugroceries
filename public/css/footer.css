@@ -6,7 +6,7 @@ footer {
 }
 
 .footerContact {
-    padding: 50px;
+    padding: 67px 24px;
     font-size: 24px;
 }
 
@@ -15,13 +15,12 @@ footer {
     flex-wrap: wrap;
     border-top: 1px solid;
     justify-content: space-evenly;
-    padding: 50px;
+    padding: 60px;
 }
 
 
 @media(max-width:670px) {
     .footerContact {
-        padding: 50px 0 ;
         font-size: 17px ;    
     }
 

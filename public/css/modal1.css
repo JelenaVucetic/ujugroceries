@@ -1,0 +1,252 @@
+.myGroceriesmodal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 999; /* Sit on top */
+    padding-top: 50px; /* Location of the box */
+    top:-5px;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(255, 255, 255, 0.692); /* Black w/ opacity */
+    font-family: 'Roboto Slab', serif;
+    display: none;
+}
+
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.myGroceriesmodal img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.myGroceriesmodal h3 {
+    text-align: center;
+}
+
+.myForm {
+    margin: auto;
+    padding: 30px;
+}
+
+.left, .right {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+}
+
+
+.modalbtn {
+    margin: 20px 0px;
+    background-color: #ed674a;
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    width: 200px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+.left label {
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    float: right;
+}
+
+.left label:hover {
+    background-color:rgb(238, 195, 85) ;
+}
+
+
+textarea {
+    width: 100%;
+    height: 100px;
+}
+
+.right label {
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    float: right;
+}
+
+.right label:hover {
+    background-color:rgb(238, 195, 85) ;
+}
+
+.personalInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.personalInfo input {
+    width: 375px;
+    padding: 15px;
+    border: 1px solid 	#191970;
+}
+
+.personalInfo p {
+    color: 	#808080
+}
+
+
+.time {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.time select {
+    width: 50px;
+}
+
+.time span {
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.mymodalbtn {
+    margin-top: 0;
+    border: 1px solid rgb(42, 24, 77);
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.mymodalbtn:hover {
+    background-color: rgb(238, 195, 85);
+    color: rgb(0,0,0);
+    text-decoration: none;
+    border: 1px solid rgb(30, 23, 36);
+    border-radius: 10px;
+}
+
+.mymodalbtn:focus {
+    outline: none !important;
+}
+
+.mymodalbtn[aria-expanded="false"] {
+    background-color: white !important;
+}
+
+#accordionExample {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin:10px;
+}
+
+.card button {
+    width: 200px;
+}
+
+.ordertime input {
+    width: 50px !important;
+}
+
+@media(max-width:670px) {
+    .modal-content {
+        width: 88%;
+        margin: 0;
+    }
+    #myModal h3 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    #myModal img {
+        width: 200px;
+        margin-bottom: 20px;
+    }
+    #accordionExample {
+        flex-direction: column;
+        width: 280px;
+    }
+    .myForm {
+         margin: 0; 
+         width: 0; 
+        padding: 0;
+    }
+
+    .myForm h3 {
+        width: 265px;
+    }
+
+    .mymodalbtn {
+        width: 200px;
+    }
+
+    textarea {
+        width: 85%;
+    }
+
+    .personalInfo {
+        align-items: flex-start;
+        margin-left: 50px;
+    }
+
+    .personalInfo input {
+        width: 165px;
+    }
+
+    .personalInfo p {
+        width: 190px;
+    }
+
+    .modalbtn {
+        width: 170px;
+    }
+
+    .time {
+        flex-direction: row;
+    }
+
+    .time span {
+         margin-left: 10px; 
+    }
+
+    .time select {
+        margin-right: 10px; 
+    }
+    .ordertime {
+        display: flex;
+        margin-left: 10px;
+    }
+
+    .card {
+        margin-left: 36px;
+    }
+
+}

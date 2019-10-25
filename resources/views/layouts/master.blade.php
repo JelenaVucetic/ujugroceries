@@ -26,15 +26,25 @@
          <!-- Styles -->
          <link rel="stylesheet" href="/css/header.css">
          <link rel="stylesheet" href="/css/homepage.css">
+         <link rel="stylesheet" href="/css/groceries.css">
+         <link rel="stylesheet" href="/css/coupons.css">
          <link rel="stylesheet" href="/css/footer.css">
 
         @yield('modalcss')
-        @yield('modaljs')
+     
+        @yield('modal1css')
+   
+     
+      
     </head>
     <body>
         @include('layouts.header')
         @yield('content')
+        @include('layouts.coupons')
         @include('layouts.footer')
-    </body>
 
+
+        @yield('modaljs')
+        @yield('modal1js')
+    </body>
 </html>

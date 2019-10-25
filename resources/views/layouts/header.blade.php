@@ -18,7 +18,7 @@
       <div class="collapse navbar-collapse navbar-right myNav" id="myNavbar">
         <ul class="nav navbar-nav">
           <li><a href="/">Početna</a></li>
-          <li><a href="/products">Namirnice</a></li>
+          <li><a href="/namirince">Namirnice</a></li>
           <li><a href="#">Kako poručiti?</a></li>
           <li><a href="/about">Zašto UJU?</a></li>
           <li><a href="#">Kontakt</a></li>

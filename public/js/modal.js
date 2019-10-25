@@ -35,6 +35,28 @@ window.onclick = function(event) {
   }
 }
 
+function change() {
+  if( document.getElementById("choosedTime").value == 6) {
+    document.getElementById("autofill").value = "7";
+     }
+     if( document.getElementById("choosedTime").value == 7) {
+      document.getElementById("autofill").value = "8";
+       }
+       if( document.getElementById("choosedTime").value == 10) {
+        document.getElementById("autofill").value = "11";
+         }
+  if( document.getElementById("choosedTime").value == 9) {
+   document.getElementById("autofill").value = "10";
+    }
+    if( document.getElementById("choosedTime").value == 8) {
+      document.getElementById("autofill").value = "9";
+       }
+       if( document.getElementById("choosedTime").value == 11) {
+        document.getElementById("autofill").value = "12";
+         }
+}
+
+
 
 // function showBreadTextarea() {
 //   var selectedobj=document.getElementById('showbread');
@@ -125,3 +147,5 @@ window.onclick = function(event) {
    t.style.color = 'black';
     t.style.textDecoration = 'none';
   }
+
+

@@ -60,7 +60,7 @@
                 </div>
                </div>
             </div>
-            <div class="card">
+             <div class="card">
               <div class="card-header" id="headingThree">
                 <h2 class="mb-0">
                   <button onclick="changeYogurtCss()" id="yogurt" class="btn btn-link collapsed mymodalbtn" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -88,7 +88,7 @@
                   </div>         
                 </div>
               </div>
-        </div>
+        </div> 
 
 
 
@@ -110,7 +110,7 @@
                 <div class="ordertime">
                     <div>
                             <span>OD: </span>
-                            <select>
+                            <select id="choosedTime" onclick="change()">
                                   <option value="6">6</option>
                                   <option value="7">7</option>
                                   <option value="8">8</option>
@@ -122,15 +122,7 @@
                     </div>
                     <div>
                             <span>DO: </span>
-                            <select>
-                                  <option value="6">6</option>
-                                  <option value="7">7</option>
-                                  <option value="8">8</option>
-                                  <option value="9">9</option>
-                                  <option value="10">10</option>
-                                  <option value="11">11</option>
-                                  <option value="12">12</option>
-                              </select>
+                            <input type="text" id="autofill">
                     </div>
                 </div>
                   
