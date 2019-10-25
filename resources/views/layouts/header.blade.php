@@ -19,7 +19,7 @@
         <ul class="nav navbar-nav">
           <li><a href="/">Početna</a></li>
           <li><a href="/namirince">Namirnice</a></li>
-          <li><a href="#">Kako poručiti?</a></li>
+          <li><a href="/kakoporuciti">Kako poručiti?</a></li>
           <li><a href="/about">Zašto UJU?</a></li>
           <li><a href="#">Kontakt</a></li>
         </ul>

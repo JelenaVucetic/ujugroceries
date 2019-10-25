@@ -19,6 +19,9 @@ Route::get('/namirince', function () {
     return view('groceries');
 });
 
+Route::get('/kakoporuciti', function () {
+    return view('howitworks');
+});
 
 Route::get('/about', function () {
     return view('about');
