@@ -29,6 +29,7 @@
          <link rel="stylesheet" href="/css/groceries.css">
          <link rel="stylesheet" href="/css/howitworks.css">
          <link rel="stylesheet" href="/css/coupons.css">
+         <link rel="stylesheet" href="/css/contact.css">
          <link rel="stylesheet" href="/css/footer.css">
 
         @yield('modalcss')

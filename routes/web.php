@@ -23,8 +23,12 @@ Route::get('/kakoporuciti', function () {
     return view('howitworks');
 });
 
-Route::get('/about', function () {
+Route::get('/o-nama', function () {
     return view('about');
+});
+
+Route::get('/kontakt', function () {
+    return view('contact');
 });
 
 //Ordrer is important

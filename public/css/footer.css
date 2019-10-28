@@ -3,11 +3,17 @@ footer {
     background-color: #d9d872;
     text-align: center;
     padding: 50px;
+    color: #454d66;
 }
 
 .footerContact {
-    padding: 67px 24px;
+    padding: 30px;
     font-size: 24px;
+}
+
+footer img {
+    width: 300px;
+    margin: 30px;
 }
 
 .links {

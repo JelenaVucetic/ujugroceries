@@ -2,7 +2,9 @@
 
 @section('content')
 
-<div class="jumbotron howHeader"></div>
+<div class="jumbotron howHeader">
+    <h1>URADITE SVE PREKO SVOG MOBILNOG TELEFONA</h1>
+</div>
 
 <div class="jumbotron about new">
         <div class="aboutuju">

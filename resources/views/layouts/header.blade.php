@@ -20,8 +20,8 @@
           <li><a href="/">Početna</a></li>
           <li><a href="/namirince">Namirnice</a></li>
           <li><a href="/kakoporuciti">Kako poručiti?</a></li>
-          <li><a href="/about">Zašto UJU?</a></li>
-          <li><a href="#">Kontakt</a></li>
+          <li><a href="/o-nama">Zašto UJU?</a></li>
+          <li><a href="/kontakt">Kontakt</a></li>
         </ul>
       </div>
     </div>
