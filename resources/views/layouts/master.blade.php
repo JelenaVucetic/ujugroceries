@@ -48,5 +48,9 @@
 
         @yield('modaljs')
         @yield('modal1js')
+        
+
+            @include('sweetalert::alert')
+
     </body>
 </html>

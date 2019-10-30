@@ -45,7 +45,7 @@
             </div>
             
             <div class="ordering">
-                <button id="myBtn"> NARUČI ŽELJENE NAMIRNICE</button>
+               <button id="myBtn"> NARUČI ŽELJENE NAMIRNICE</button>
                 <p>...i ujutru će biti dostavljene na vratima vašeg doma.</p>
             </div>
 

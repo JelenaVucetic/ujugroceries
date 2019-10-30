@@ -6,29 +6,33 @@
         <img src="/images/Logo_sideways.svg" alt="logo">
         <h3>1.Odaberite željene namirnice za dostavu</h3>
 
-        <form action="">
-            <div class="myForm">
-                        {{--   <div class="left">
-                            <label id="bread" onclick="showBreadTextarea()" for="bread"> Hljeb</label>
-                                <textarea name="" rows="4" placeholder="Unesite željenu/e vrste hljeba."
-                                            id="showbread" style="display:none" class="hide"></textarea>
-                                <label id="milk" onclick="showMilkTextarea()" for="milk">Mlijeko</label>
-                                <textarea name="" rows="4" placeholder="Unesite željenu/e vrste mlijeka.
-                -Proizvođač, masnoća"
-                                            id="showmilk" style="display:none" class="hide"></textarea>
-                            </div>
-
-                            <div class="right">
-                                    <label id="yogurt" onclick="showYogurtTextarea()" for="yogurt">Jogurt</label>
-                                    <textarea name="" rows="4" placeholder="Unesite željenu vrstu jogurta (Proizvođač, masnoća...)"
-                                                    id="showyogurt" style="display:none" class="hide"></textarea>
-                                    <label id="papers" onclick="showPapersTextarea()" for="papers">Novine</label>
-                                    <textarea name="" rows="4" placeholder="Unesite željenu/e novine."
-                                                    id="showpapers" style="display:none" class="hide"></textarea>
-                            </div>  
-                        </div> --}}
 
 
+        <div class="container box">
+          @if(count($errors) > 0)
+              <div class="alert alert-danger">
+                  <button type="button" class="close" data-dismiss='alert'>x</button>
+                  <ul>
+                      @foreach ($errors->all() as $error)
+                          <li>{{ $error }}</li>
+                      @endforeach
+                  </ul>
+              </div>
+          @endif
+
+          @if(session('succes_message')))
+          <div class="alert alert-success alert-block">
+              {{ session('succes_message') }}
+          </div> 
+    
+          @endif
+      </div>
+
+
+    <form method="post" action="/send-order-email">
+        @csrf
+
+      <div class="myForm">
         <div class="accordion" id="accordionExample">
             <div class="card">
               <div class="card-header" id="headingOne">
@@ -41,7 +45,7 @@
           
               <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                 <div class="card-body">
-                 <textarea name="" id="" cols="4" placeholder="Unesite željenu/e vrste hljeba."></textarea>
+                 <textarea name="breadMessage" id="" cols="4" placeholder="Unesite željenu/e vrste hljeba."></textarea>
                 </div>
               </div>
             </div>
@@ -56,7 +60,7 @@
               </div>
               <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                 <div class="card-body">
-                    <textarea name="" id="" cols="4" placeholder="Unesite željenu/e vrste mlijeka."></textarea>  
+                    <textarea name="milkMessage" id="" cols="4" placeholder="Unesite željenu/e vrste mlijeka."></textarea>  
                 </div>
                </div>
             </div>
@@ -70,7 +74,7 @@
               </div>
               <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                 <div class="card-body">
-                    <textarea name="" id="" cols="4" placeholder="Unesite željenu vrstu jogurta (Proizvođač, masnoća...)"></textarea> 
+                    <textarea name="yogurtMessage" id="" cols="4" placeholder="Unesite željenu vrstu jogurta (Proizvođač, masnoća...)"></textarea> 
                 </div>              
               </div>
             </div>
@@ -84,7 +88,7 @@
                 </div>
                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
                   <div class="card-body">
-                      <textarea name="" id="" cols="4" placeholder="Unesite željenu/e novine."></textarea>      
+                      <textarea name="papersMessage" id="" cols="4" placeholder="Unesite željenu/e novine."></textarea>      
                   </div>         
                 </div>
               </div>
@@ -96,44 +100,42 @@
 
             <div class="personalInfo">
                 <div>
-                    <input type="text" placeholder="Ime i Prezime">
-                    <input type="text" placeholder="Broj telefona">
+                    <input name="name" type="text" placeholder="Ime i Prezime" required>
+                    <input name="phone" type="text" placeholder="Broj telefona" required>
                 </div>
 
                 <div>
-                    <input type="text" placeholder="Adresa">
-                    <input type="text" placeholder="E-Mail">
+                    <input name="adress" type="text" placeholder="Adresa" required>
+                    <input name="email" type="text" placeholder="E-Mail" required>
                 </div>
 
                 <div class="time">
                 <label for="time">Željeno vrijeme dostave: </label>
                 <div class="ordertime">
                     <div>
-                            <span>OD: </span>
-                            <select id="choosedTime" onclick="change()">
-                                  <option value="6">6</option>
-                                  <option value="7">7</option>
-                                  <option value="8">8</option>
-                                  <option value="9">9</option>
-                                  <option value="10">10</option>
-                                  <option value="11">11</option>
-                                  <option value="12">12</option>
-                              </select>
-                    </div>
-                    <div>
-                            <span>DO: </span>
-                            <input type="text" id="autofill">
-                    </div>
-                </div>
+                      <span>OD: </span> 
+                        <select id="choosedTime" name="time" onclick="change()" required>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                      </div>
+                      <div>
+                          <span>DO: </span>
+                          <input type="text" id="autofill" name="autoTime">
+                      </div>
+                  </div>
                   
                 </div>
-                <button class="modalbtn">Naruči</button>
+                <button class="modalbtn" type="submit">Naruči</button>
                 <p>***Cijena namirnica su za 10% visočije u odnosu na cijnu u marketima.</p>
                 <p>***U slučaju ne dostavljanja namirnica na vrijeme , nijeste dužni da platite iste.</p>
             </div>
-        </div>
-           
-        </form>
-    </div>
-    
+        </div>   
+    </form>
+  </div>
 </div>

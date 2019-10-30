@@ -1,5 +1,7 @@
 <?php
 
+use RealRashid\SweetAlert\Facades\Alert;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -30,6 +32,15 @@ Route::get('/o-nama', function () {
 Route::get('/kontakt', function () {
     return view('contact');
 });
+
+
+Route::post('/send-email', 'SendEmailController@send');
+
+Route::post('/send-order-email', 'SendOrderEmailController@send');
+
+//Route::post('/send-order-groceries-email', 'SendOrderGroceriesEmailController@send');
+
+
 
 //Ordrer is important
 

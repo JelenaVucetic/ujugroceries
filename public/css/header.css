@@ -21,9 +21,15 @@ nav {
 }
 
 .myNav li a {
-    color: rgb(115, 101, 204);
+    color: #454d66;
     font-weight: 700;
     font-size: 18px;
+}
+
+.navbar .nav>li>a {
+
+    padding: 10px 30px 10px;
+
 }
 
 .topHeader {
