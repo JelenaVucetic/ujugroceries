@@ -30,9 +30,14 @@
     height: 50px;
     background-color: #ed674a;
     border: none;
+    border-radius: 10px;
     font-size: 20px;
+
 }
 
+.coupons button:hover {
+        background-color: #e74b37;  
+}
 .coupons input {
     width: 420px;
     height: 65px;

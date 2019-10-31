@@ -33,6 +33,10 @@ body {
     font-weight: 600;
 }
 
+#ujupaketi:hover {
+    background-color: #e74b37;
+}
+
 .info {
     display: flex;
     justify-content: space-evenly;
@@ -51,6 +55,9 @@ body {
 
 .title p {
     color: #bbbbbb;
+    font-size: 21px;
+    font-weight: 200;
+    padding-top: 15px;
 }
 
 .products {
@@ -88,6 +95,10 @@ body {
 .products p {
     width: 263px;
     padding: 10px;
+    font-size: 20px;
+    color: #454d66;
+    line-height: 28px;
+   text-align: center;
 }
 
 .ordering {
@@ -107,9 +118,15 @@ body {
     color: white;
 }
 
+#myBtn:hover {
+    background-color: #e74b37;
+}
+
 .ordering p {
-    padding: 35px;
     color: #bbbbbb;
+    font-size: 21px;
+    font-weight: 200;
+    padding: 27px !important;
 }
 
 .aboutuju {
@@ -158,51 +175,75 @@ body {
 }
 
 .part p {
-   font-size: 14px;
+    font-size: 20px;
+    color: #454d66;
+    line-height: 28px;
    text-align: center;
 }
 
 
 .whyus {
-    background-image: url('/images/telefon.png');
+    background-image: url('/images/Telefon.gif');
     background-size: cover;
     background-repeat: no-repeat;
-    background-size: 380px auto;
+    background-size: 460px auto;
     background-position: 50% 75%;
 }
 
 .whyusTitle {
     text-align: center;
+    margin-top: 80px;
     padding: 20px;
     color: #454d66;
 }
 
+.whyusTitle h1 {
+    font-weight: 100;
+    font-size: 46px;
+}
+
 .whyusTitle p {
     color: #bbbbbb;
+    font-size: 21px;
+    font-weight: 200;
+    margin-top: 20px;
 }
 
 .reasons {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 30px;
-    margin-bottom: -62px;
+    margin-bottom: -65px;
 }
 
 .reasons p {
     font-size: 20px;
     color: #454d66;
+    line-height: 28px;
 }
 
 .reasons div {
-    width: 300px;
+    width: 470px;
     padding: 30px;
     padding-top: 0;
 }  
 
+.reasons img {
+    width: 30px;
+    margin-right: 30px;
+}
+
+.reasonsLeft div {
+    margin-left: 100px;
+
+}
+
 .reasonsLeft div,
 .reasonsRight div{
     padding-bottom: 90px;
+    display: flex;
+    width: 390px;
 }
 
 
@@ -273,6 +314,14 @@ body {
 
     .reasons {
         margin-bottom: 0;
+    }
+
+    .reasons div {
+        padding-bottom: 0;
+    }
+    .reasonsLeft div {
+        margin-left: 0;
+    
     }
     .reasonsLeft div, 
     .reasonsRight div {

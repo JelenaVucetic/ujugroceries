@@ -91,24 +91,30 @@
         <div class="reasons">  
             <div class="reasonsLeft">
                 <div>
+                    <img src="/images/RedniBrojevi-01 copy.svg" alt="">
                     <p>Zato što dostavljamo najsvježije namirnice u gradu.</p>
                 </div>
                 <div>
+                    <img src="/images/RedniBrojevi-02 copy.svg" alt="">
                     <p>Zato što garantujemo dostavu na virjeme.</p>
                 </div>
                 <div>
+                    <img src="/images/RedniBrojevi-03 copy.svg" alt="">
                     <p>Zato što je kupovina najpotrebniji namirnica preko UJU veb-sajta veoma jednostavna.</p>
                 </div>
             </div>
 
             <div class="reasonsRight">
                 <div>
+                    <img src="/images/RedniBrojevi-04 copy.svg" alt="">
                     <p>Zato što vam štedimo vrijeme potrošeno na kupovinu namirnica ujutru.</p>
                 </div>
                 <div>
+                    <img src="/images/RedniBrojevi-05 copy.svg" alt="">
                     <p>Zato što možete doručkovati u pidžami, kod kuće i prije posla.</p>
                 </div>
                 <div>
+                        <img src="/images/RedniBrojevi-06 copy.svg" alt="">
                     <p>Zato što možemo olakšati osobama koje nijesu u mogućnosti.</p>
                 </div>
             </div>

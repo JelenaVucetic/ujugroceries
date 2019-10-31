@@ -13,14 +13,13 @@ class SendGroceriesEmailController extends Controller
     public function send(Request $request) 
     {  
          $this->validate($request, [
-             'test' => 'required'
+             'test' => 'required',
              ]);
         
          $groceries = array (
              'test' => $request->test,
          );
-
-
+         dd($groceries);
         Mail::to('poruci@ujunamirnice.me')->send(new GroceriesMail($groceries));
 
         return back()->with('success', 'Hvala vaša porudžbina je uspješna!');
