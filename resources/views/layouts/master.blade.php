@@ -3,7 +3,10 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-       
+        
+        <meta property="og:image" content="http://ujunamirnice.me/images/Logo_v01.jpg" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://ujunamirnice.me/" />
         
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -15,7 +18,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
         <title>UJU</title>
-
+        <link rel="shortcut icon" type="image/x-icon" href="/images/UJU-TAB-IKONICA.ico" />
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">

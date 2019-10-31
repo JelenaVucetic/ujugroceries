@@ -1,0 +1,1 @@
+ <p> {{ $groceries['test'] }} </p> 

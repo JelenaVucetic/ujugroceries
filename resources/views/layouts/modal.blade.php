@@ -126,7 +126,7 @@
                       </div>
                       <div>
                           <span>DO: </span>
-                          <input type="text" id="autofill" name="autoTime">
+                          <input type="text" id="autofill" name="autoTime" placeholder="7" disabled>
                       </div>
                   </div>
                   

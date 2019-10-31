@@ -22,11 +22,16 @@ class SendOrderEmailController extends Controller
             ]);
         
         $order = array (
+            'breadMessage' => $request->breadMessage,
+            'milkMessage' => $request->milkMessage,
+            'yogurtMessage' => $request->yogurtMessage,
+            'papersMessage' => $request->papersMessage,
             'name' => $request->name,
             'phone' => $request->phone,
             'adress' => $request->adress,
             'time' => $request->time,
             'autoTime' => $request->autoTime
+            
         );
 
         Mail::to('poruci@ujunamirnice.me')->send(new OrderMail($order));

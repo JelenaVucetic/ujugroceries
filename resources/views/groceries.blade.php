@@ -14,7 +14,7 @@
             i nazad mnogo značilo, prepustite taj dio nama, a vi samo navedite vrijeme kad i koje namirnice želite dostavljene direktno 
             na vašu adresu.
         </p>
-        <h1>UVIJEK SVIJEŽE</h1>
+        <h1>UVIJEK SVJEŽE</h1>
     </div>
     <div class="products">
         <div>

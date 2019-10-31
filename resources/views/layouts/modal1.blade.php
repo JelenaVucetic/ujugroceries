@@ -29,10 +29,11 @@
         </div>
   
    
-        <form  method="post" action="/send-order-groceries-email">
+        <form  method="post" action="/send-groceries-email">
             @csrf
           <div class="myForm">
-           <div class="accordion" id="accordionExample">
+            <input type="text" name="test">
+           {{-- <div class="accordion" id="accordionExample">
                <div class="card">
                  <div class="card-header" id="headingOne">
                    <h2 class="mb-0">
@@ -44,7 +45,7 @@
              
                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                    <div class="card-body">
-                    <textarea name="" id="" cols="4" placeholder="Unesite željenu/e vrste hljeba."></textarea>
+                    <textarea name="breadMessage1" id="" cols="4" placeholder="Unesite željenu/e vrste hljeba."></textarea>
                    </div>
                  </div>
                </div>
@@ -59,7 +60,7 @@
                  </div>
                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                    <div class="card-body">
-                       <textarea name="" id="" cols="4" placeholder="Unesite željenu/e vrste mlijeka."></textarea>  
+                       <textarea name="milkMessage1" id="" cols="4" placeholder="Unesite željenu/e vrste mlijeka."></textarea>  
                    </div>
                   </div>
                </div>
@@ -73,7 +74,7 @@
                  </div>
                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                    <div class="card-body">
-                       <textarea name="" id="" cols="4" placeholder="Unesite željenu vrstu jogurta (Proizvođač, masnoća...)"></textarea> 
+                       <textarea name="yogurtMessage1" id="" cols="4" placeholder="Unesite željenu vrstu jogurta (Proizvođač, masnoća...)"></textarea> 
                    </div>              
                  </div>
                </div>
@@ -87,7 +88,7 @@
                    </div>
                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
                      <div class="card-body">
-                         <textarea name="" id="" cols="4" placeholder="Unesite željenu/e novine."></textarea>      
+                         <textarea name="papersMessage1" id="" cols="4" placeholder="Unesite željenu/e novine."></textarea>      
                      </div>         
                    </div>
                  </div>
@@ -97,13 +98,13 @@
 
           <div class="personalInfo">
               <div>
-                  <input name="name1" type="text" placeholder="Ime i Prezime" required>
+                  <input name="nameg" type="text" placeholder="Ime i Prezime" required>
                   <input name="phone1" type="text" placeholder="Broj telefona">
               </div>
 
               <div>
-                  <input name="adress1" type="text" placeholder="Adresa">
-                  <input name="email1" type="text" placeholder="E-Mail">
+                  <input name="adressg" type="text" placeholder="Adresa">
+                  <input name="emailg" type="text" placeholder="E-Mail">
               </div>
 
               <div class="time">
@@ -111,7 +112,7 @@
               <div class="ordertime">
                   <div>
                     <span>OD: </span>
-                    <select id="choosedTime" name="time1"  onclick="change()">
+                    <select id="choosedTime" name="timeg"  onclick="change()">
                           <option value="6">6</option>
                           <option value="7">7</option>
                           <option value="8">8</option>
@@ -123,11 +124,11 @@
                   </div>
                   <div>
                           <span>DO: </span>
-                          <input type="text" id="autofill" name="autoTime1">
+                          <input type="text" id="autofill" name="autoTime1" placeholder="7" disabled>
                   </div>
               </div>
                 
-              </div>
+              </div> --}}
               <button class="modalbtn" type="submit">Naruči</button>
               <p>***Cijena namirnica su za 10% visočije u odnosu na cijnu u marketima.</p>
               <p>***U slučaju ne dostavljanja namirnica na vrijeme , nijeste dužni da platite iste.</p>

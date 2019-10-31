@@ -38,7 +38,7 @@ Route::post('/send-email', 'SendEmailController@send');
 
 Route::post('/send-order-email', 'SendOrderEmailController@send');
 
-//Route::post('/send-order-groceries-email', 'SendOrderGroceriesEmailController@send');
+Route::post('/send-groceries-email', 'SendGroceriesEmailController@send');
 
 
 
