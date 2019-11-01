@@ -39,7 +39,7 @@
      
         @yield('modal1css')
    
-     
+        <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
       
     </head>
     <body>
@@ -54,6 +54,6 @@
         
 
             @include('sweetalert::alert')
-
+    
     </body>
 </html>

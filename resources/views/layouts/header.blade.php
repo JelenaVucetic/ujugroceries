@@ -1,10 +1,13 @@
 <nav class="navbar navbar-fixed-top" id="myNav">
         <div class="topHeader">
                 <div class="meta">
-                    <p class="truncate">Pozovite nas za jutarnju narudžbinu namirnica</p>
+                    <p class="truncate">Pozovite nas</p>
                     <p> <i class="fa fa-phone" aria-hidden="true" style="color:green; font-size: 18px; font-weight: bold; padding-right: 5px;"></i>069 251 455</p>
                 </div>
-                <div class="email"> poruci@ujudelivery.me</div>
+                <div class="topRight">
+                  <p>poruci@ujudelivery.me</p>
+                  <button>Poruči</button>
+                </div>
             </div>
     <div class="container-fluid bottomHeader">
       <div class="navbar-header">

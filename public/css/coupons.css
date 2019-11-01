@@ -1,15 +1,17 @@
 .coupons {
-    background-color: #4b9f48;
+    background-image: url('/images/Green-Box-Subscribe.jpg');
+    background-position: 100%;
     margin-bottom: -10px;
+    width: 1080px;
 }
 
 .coupons h1 {
     color: white;
     text-align: center;
-    padding: 20px 115px;
     line-height: 60px;
-    font-weight: 100;
-    font-size: 25px;
+    font-weight: 600;
+    font-size: 43px;
+    margin-top: 30px;
 }
 
 .coupons form {
@@ -19,32 +21,47 @@
 }
 
 .coupons input::placeholder {
-    color: #d9d872;
+    color: #bbbbbb;
     font-size: 20px;
 }
 
 .coupons button {
+    width: 130px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
     color: white;
-    margin-top: 30px;
-    width: 200px;
-    height: 50px;
-    background-color: #ed674a;
-    border: none;
-    border-radius: 10px;
-    font-size: 20px;
-
+    font-size: 16px;
+    margin-right: 10px;
 }
 
 .coupons button:hover {
-        background-color: #e74b37;  
+    background: white;
+    color: rgba(0, 0, 0, 0.5);  ;
+       
 }
 .coupons input {
-    width: 420px;
-    height: 65px;
+    width: 360px;
+    height: 40px;
+    margin-right: 10px;
+    margin-left: 30px;
     text-align: center;
+    border-radius: 5px;
+}
+
+.idk {
+    margin-top: 30px;
+    margin-bottom: 80px;
+    text-align: center;
+    color: grey;
 }
 
 
+.idk a {
+    text-decoration: none;
+    color: #ed674a;
+}
 @media(max-width: 670px) {
     .coupons {
         margin-left: -20px; 

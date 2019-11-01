@@ -8,7 +8,10 @@
     <div class="jumbotron text-center myHeader" style="margin-bottom:0">
         <h1>MI DOSTAVLJAMO NAMIRNICE  <br>   KOJE VAM SVAKOG JUTRA TREBAJU</h1>
         <p>Hljeb, mlijeko, jogurt i/ili novine</p> 
-        <button id="ujupaketi">UJU PAKETI NAMIRNICA</button>
+        <div class="buttons">
+            <button id="ujupaketi">UJU paketi namirnica</button>
+            <button>Pojedinačne namirnice</button>
+        </div>
         <div class="info">
             <p>06-12h DOSTAVA</p>
             <p>ONLINE/TEL. PORUČIVANJE</p>
@@ -23,30 +26,30 @@
             </div>
             <div class="products">
                 <div>
-                    <img src="/images/Bread.png" alt="">
                     <h3>Hljeb</h3>
-                    <p> Na čekautu možete navesti koji hljeb želite.</p>
+                    <img src="/images/Bread.png" alt="">
+                    <p>Da li volite kada vas ujutru na stolu za doručak dočeka topao, svjež hljeb?</p>
                 </div>
                 <div>
-                    <img src="/images/Milk.png" alt="">
                     <h3>Mlijeko</h3>
-                    <p>Na čekautu možete navesti proizvođača i masnoću mlijeka.</p>
+                    <img src="/images/Milk.png" alt="">
+                    <p>Ne dozvolite sebi da Vi ili vaša djeca ostanete bez mlijeka za doručak.</p>
                 </div>
                 <div>
-                    <img src="/images/yogurt.png" alt="">
                     <h3>Jogurt</h3>
-                    <p>Na čekautu možete navesti koji jogurt želite.</p>
+                    <img src="/images/yogurt.png" alt="">
+                    <p>Za sve one kojima jogurt predstavlja primarno piće uz jutanje obroke.</p>
                 </div>
                 <div>
-                    <img src="/images/Novine.png" alt="">
                     <h3>Novine</h3>
-                    <p>Na čekautu možete navesti koje novine želite.</p>
+                    <img src="/images/Novine.png" alt="">
+                    <p>Budite u toku sa svakodnevnim vijestima čak i kada je toliko hladno ili pada kiša, da vam se ne izlazi do prodavnice.</p>
                 </div>
             </div>
             
             <div class="ordering">
-               <button id="myBtn"> NARUČI ŽELJENE NAMIRNICE</button>
-                <p>...i ujutru će biti dostavljene na vratima vašeg doma.</p>
+               <button id="myBtn"> Naruči namirnice po želji</button>
+                <p>Ujutru će biti dostavljene na vratima vašeg doma.</p>
             </div>
 
             @include('layouts.modal')
@@ -60,23 +63,23 @@
                 <div class="steps">
                     <div class="part">
                         <img src="/images/Ikonice-02 copy.svg" alt="img">
-                        <div>1</div>
-                        <p>Izaberite željeni <br> paket usluga</p>
+                        <p>Izaberite željene namirnice ili ukoliko želite uštedjeti novac, možete odabrati svoj mjesečni paket namirncia.</p>
+                        <p>(Npr. paket "Dostava Nedeljom".)</p>
                     </div>
                     <div class="part">
                         <img src="/images/Ikonice-01 copy.svg" alt="">
-                        <div>2</div>
-                        <p>Pošaljite zahtjev <br> za željeni paket</p>
+                        <p>Nakon što ste izabrali željenu uslugu, ispunite obilježena polja za dodatne želje, ukoliko ih ima.</p>
+                        <p>(Npr.Želim mlijeko od 2.8% masnoće)</p>
                     </div>
                     <div class="part">
                         <img src="/images/Ikonice-03 copy.svg" alt="">
-                        <div>3</div>
-                        <p>Odaberite vrijeme kada <br> želite da izvršimo dostavu</p>
+                        <p>Odaberite željeno vrijeme dostave u jutarnjim časovima. Vaša porudžbina će biti dostavljena u periodu od sat vremena.</p>
+                        <p>(Npr.od 7h do 8h)</p>
                     </div>
                     <div class="part">
                         <img src="/images/Ikonice-04 copy.svg" alt="">
-                        <div>4</div>
-                        <p>Namirnice su na putu <br>  ka vama</p>
+                       <p>Klikom na dugme "Naruči", vaša porudžbina je kompletna i sledećeg jutra na putu ka vratima vašeg doma.</p>
+                        <p>(Hvala što koristite UJU)</p>
                     </div>
                 </div>
             </div>
@@ -96,7 +99,7 @@
                 </div>
                 <div>
                     <img src="/images/RedniBrojevi-02 copy.svg" alt="">
-                    <p>Zato što garantujemo dostavu na virjeme.</p>
+                    <p>Zato što garantujemo dostavu vaših namirnica svakog jutra na vrijeme.</p>
                 </div>
                 <div>
                     <img src="/images/RedniBrojevi-03 copy.svg" alt="">
@@ -113,7 +116,7 @@
                     <img src="/images/RedniBrojevi-05 copy.svg" alt="">
                     <p>Zato što možete doručkovati u pidžami, kod kuće i prije posla.</p>
                 </div>
-                <div>
+                <div style="padding-top: 30px;">
                         <img src="/images/RedniBrojevi-06 copy.svg" alt="">
                     <p>Zato što možemo olakšati osobama koje nijesu u mogućnosti.</p>
                 </div>
