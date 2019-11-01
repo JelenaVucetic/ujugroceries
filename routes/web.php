@@ -17,8 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/namirince', function () {
-    return view('groceries');
+Route::get('/usluge', function () {
+    return view('services');
 });
 
 Route::get('/kakoporuciti', function () {

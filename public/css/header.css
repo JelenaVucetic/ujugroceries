@@ -94,6 +94,10 @@ nav {
    margin: 0 25px;
 }
 
+.topRight button:hover {
+    background-color: #e74b37;
+ }
+
 @media(max-width: 670px) {
     .topHeader {
         width: 106%;

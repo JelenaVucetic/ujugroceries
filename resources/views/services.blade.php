@@ -4,6 +4,10 @@
 @endsection
 
 @section('content')
+<div class="servicesTitle">
+    <h1>UJU nudi dostavu osnovnih namirnica na vratima vašeg doma</h1>
+    <p>Kroz odabir unaprijed kreiranih mjesečnih paketa ili porudžbinu pojedinačnih namirnica.</p>
+</div>
 <div class="jumbotron groceriesHeader"> </div>
 
 <div class="groceriesTitle">

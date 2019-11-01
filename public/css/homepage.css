@@ -6,6 +6,9 @@ p {
     margin-bottom: 0;
 }
 
+button, input {
+    font-family: 'Roboto Slab', serif;
+}
 
 .myHeader {
     background-image: url("/images/Hljeb-slider.jpg");
@@ -108,7 +111,7 @@ p {
 
 .products h3 {
     color: #454d66;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 22px;
 }
 

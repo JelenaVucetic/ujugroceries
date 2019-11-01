@@ -29,7 +29,7 @@
          <!-- Styles -->
          <link rel="stylesheet" href="/css/header.css">
          <link rel="stylesheet" href="/css/homepage.css">
-         <link rel="stylesheet" href="/css/groceries.css">
+         <link rel="stylesheet" href="/css/services.css">
          <link rel="stylesheet" href="/css/howitworks.css">
          <link rel="stylesheet" href="/css/coupons.css">
          <link rel="stylesheet" href="/css/contact.css">
