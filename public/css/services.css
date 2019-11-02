@@ -1,50 +1,125 @@
+.jumbotron p {
+     margin-bottom: 0; 
+     font-size: 14px; 
+     font-weight: 100; 
+}
+ 
  .servicesTitle {
     margin-top: 250px;
-    width: 60%;
-    margin: 250px 200px 50px;
+    width: 65%;
+    margin: 230px 200px 50px;
  }
 
  .servicesTitle h1 {
      color: #454d66;
-    font-size: 50.5px;
+    font-size: 55.5px;
     text-align: -webkit-left;
     line-height: 60px;
  }
 
  .servicesTitle p {
-    font-size: 21px;
+    font-size: 23px;
     color: #68759c;
     padding: 20px 0;
  }
- 
- .groceriesHeader {
-    background: salmon;
+
+ .servicesHeader {
+    background: #ee785e;
     height: 300px;
     background-position: 100% 100%;
     margin-bottom: 0;
 }
 
-.groceriesTitle {
-    margin: 80px 0;
+.package {
+    display: flex;
+    justify-content: center;
+}
+
+.packageLeft,
+.packageRight {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.packageLeft div,
+.packageRight div{
+    width: 500px;
+    height: 300px;
+    background: #454d66;
+    margin: 10px;
+}
+
+.packageLeft p,
+.packageRight p{
+    width: 430px;
+    margin-left: 50px;
+    color: #bbbbbb;
+}
+
+
+.packageLeft h4,
+.packageRight h4{
     text-align: center;
-}
-
-.groceriesTitle h1{
-    color: #ed674a;
-    font-size: 65px;
+    font-size: 21px;
+    color: #454d66;
     font-weight: 100;
-    margin-top: 60px;
 }
 
-.groceriesTitle p {
-  color: #454d66;
-  font-size: 16px;
-  width: 60%;
-  text-align: justify;
-  margin: auto;
+.packageLeft h3,
+.packageRight h3{
+    margin-left: 50px;
+    font-size: 22px;
+    color: #454d66;
 }
 
-.products {
+.packageLeft span,
+.packageRight span{
+    color: #ed674a;
+}
+
+.servicesSingle,
+.petTitle {
+    width: 65%;
+    margin: 350px auto 100px;
+    text-align: start;
+}
+
+.petTitle {
+    margin: 0 auto 100px;
+}
+
+.petTitle span {
+    color: #ed674a;
+}
+
+.servicesSingle h1,
+.petTitle h1{
+   font-size: 50px;
+   color: #454d66;
+   margin-bottom: 20px;
+}
+
+.servicesSingle h3,
+.petTitle h3{
+   color: #616a86;
+   line-height: 25px;
+   margin-bottom: 20px;
+   font-weight: 200;
+   font-size: 22px;
+}
+
+.servicesSingle p,
+.petTitle p{
+   color: #bbbbbb;
+}
+
+.servicesProducts {
+    background: #66c263;
+    height: 300px;
+    background-position: 100% 100%;
+
     margin: 50px 0px;
     margin-bottom: 0;
     display: flex;
@@ -52,55 +127,108 @@
     justify-content: center;
 }
 
-.products div {
-    margin: 10px 30px;
+.servicesProducts div {
+    margin: 70px 10px;
     background-color: #d9d872;
-    border-radius: 19px;
+    border-radius: 5px;
+    width: 250px;
     height: auto;
     text-align: center;
 }
 
-.products h3 {
-    background-color: #ed674a;
-    color: white;
-    font-weight: 100;
-    width: 110px;
-    margin-left: 70px;
-    border-radius: 10px;
-    margin-top: 26px;
+.servicesProducts h3 {
+    color: #454d66;
+    font-weight: 400;
     font-size: 22px;
 }
 
-.products img {
+.servicesProducts img {
     width: 100%;
-    height: 300px;
+    height: 250px;
 }
 
-.products p {
+.servicesProducts p {
     width: 263px;
-    padding: 10px;
+    padding: 20px;
+    padding-bottom: 8px;
+    font-size: 14px;
+    color: #454d66;
+    line-height: 20px;
+    text-align: center;
 }
 
-.ordering {
+.servicesOrdering {
     text-align: center;
     margin-bottom: 40px;
+    margin-top: 150px;
 }
 
-#groceriesBtn {
-    width: 470px;
-    height: 65px;
+#servicesBtn {
+    width: 300px;
+    height: 50px;
     background-color: #ed674a;
     border: none;
     border-radius: 5px;
     margin-top: 100px;
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 18px;
     color: white;
 }
 
-.ordering p {
-    padding: 35px;
+#servicesBtn:hover {
+    background-color: #e74b37;
+}
+
+.servicesOrdering p {
     color: #bbbbbb;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 27px !important;
+}
+
+
+
+.petProducts {
+    background: #d9d872;
+    height: 300px;
+    background-position: 100% 100%;
+
+    margin: 50px 0px;
+    margin-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin-bottom: 300px;
+}
+
+.petProducts div {
+    margin: 70px 10px;
+    background-color: #454d66;
+    border-radius: 5px;
+    width: 250px;
+    height: auto;
+    text-align: center;
+}
+
+.petProducts h3 {
+    color: white;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.petProducts img {
+    width: 100%;
+    height: 250px;
+}
+
+.petProducts p {
+    width: 263px;
+    padding: 20px;
+    padding-bottom: 8px;
+    font-size: 14px;
+    color: white;
+    line-height: 20px;
+    text-align: center;
 }
 
 
