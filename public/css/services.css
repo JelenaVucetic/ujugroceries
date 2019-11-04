@@ -232,31 +232,83 @@
 }
 
 
-@media(min-width:1800px) {
-    .groceriesHeader {
-        height: 830px;
-    }
-    
-}
 
 @media(max-width:670px) {
-
-    .groceriesHeader {
-        height: 200px;
-        margin: 0 -20px;
-    }
-
-    .groceriesTitle h1{
-        font-size: 40px;
-        line-height: 50px;
-        margin-bottom: -40px;
-    }
-
-    #groceriesBtn {
-        width: 270px;
-        font-size: 16px;
-        margin-top: 50px;
+    .servicesHeader {
+        background: none;
     }
     
+    .servicesTitle{
+        margin: 0;
+        width: 100%;
+    }
 
+    .servicesTitle h1 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .package {
+       flex-direction: column;
+    }
+
+    .packageLeft div,
+    .packageRight div{
+        width: 300px;
+        height: 300px;
+    }
+
+    .packageLeft p, .packageRight p {
+        width: auto;
+         margin:0px;
+
+    }
+
+    .servicesSingle{
+         width: auto; 
+        margin: 870px auto 0;
+        text-align: start;
+    }
+
+    .servicesSingle h1 {
+        font-size: 30px;
+    }
+
+    .servicesProducts {
+        background: none;
+    }
+
+    .servicesProducts div {
+        margin: 20px 10px;
+    
+    }
+
+    .servicesOrdering {
+        margin-top: 1411px;
+    }
+
+    .petTitle {
+        margin: auto;
+    }
+
+    .petProducts {
+        background: none; 
+        margin: 0;
+    }
+
+    .petTitle h1 {
+        font-size: 35px;
+
+    }
+
+    .petTitle h3 {
+        font-size: 17px;
+    }
+
+    .petProducts {
+        margin-bottom: 400px;
+    }
+
+    .petProducts div {
+        margin: 20px 10px;
+    }
 } 

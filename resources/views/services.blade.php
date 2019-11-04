@@ -11,9 +11,17 @@
 
 <div class="jumbotron servicesHeader"> 
     <div class="package">
-        <div classqpresija i obaveza, prepustite se tom danu i uzmite ga samo za sebe!
-            </p>
-        </div>
+            <div class="packageLeft">
+                    <h4>15 &euro; / Mjesečno</h4>
+                    <div style="backround-color: blue;"></div>
+                    <h3>UJU NEDELJOM</h3>
+                    <p>
+                        <span>UJU Nedeljom</span>
+                        je paket kojim dobijate dostavu hljeba i mlijeka po vašoj želji u poslednjem danu u sedmici u vrijeme
+                        kada vama odgovara do 12h. Želimo da vaša nedelja počne bez presija i obaveza, prepustite se tom danu i 
+                        uzmite ga samo za sebe!
+                    </p>
+                </div>
     
         <div class="packageRight">
             <h4>15 &euro; / Mjesečno</h4>
@@ -69,7 +77,7 @@
     @include('layouts.modal1')
 
 
-
+    <div>
     <div class="petTitle">
         <h1>UJU Pet - Namirnice za kućne ljubimce</h1>
         <h3>Ne smijemo zapostaviti zdravlje niti ishranu nijednog ukućana, tako vam UJU Pet nudi sve što vam je potrebno
@@ -104,7 +112,7 @@
                 <p>Uskoro više detalja.</p>
             </div>
         </div>
-
+    </div>
 @endsection
 
 @section('modal1js')

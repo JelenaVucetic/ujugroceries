@@ -100,22 +100,28 @@ nav {
 
 @media(max-width: 670px) {
 
-    #myNav {
-        width: 100vh;
-    }
     .topHeader {
         justify-content: space-evenly;
         padding: 0;
+        margin-right: -20px
        
     }
     .myHeader {
         padding-top: 20px !important;
     }
 
+    .logo {
+        width: 160px;
+    }
+
     .meta {
         display: inline-block;
         white-space: nowrap;
         padding-top: 16px;
+    }
+
+    .meta p {
+        font-size: 14px;
     }
 
     .truncate {
@@ -127,7 +133,7 @@ nav {
     }
 
     .topRight button {
-        margin: 15px 25px;
+       display: none;
     }
 
     .topRight p {

@@ -2,7 +2,7 @@
     <h1>Osvoji popuste, ne propusti priliku</h1>
     <form action="">
             @csrf
-        <div style="display: flex; margin: 20px">
+        <div class="formElem">
             <input type="email" placeholder="Vaša Email adresa">
             <button>Prijavi se</button>
             <button>Naruči</button>

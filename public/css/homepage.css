@@ -293,13 +293,13 @@ button, input {
 
 @media(max-width: 670px) {
     .main {
-        width: 100vh;
+
         margin: auto;
     }
     .myHeader {
         margin-left: -20px;
         margin-right: -20px;
-        width: 100vh;
+        padding-bottom: 50px;
     }
     .myHeader h1 {
         line-height: 36px;
@@ -307,14 +307,7 @@ button, input {
     }
     
     .info {
-        margin-top: 50px;
-       flex-direction: column;
-    }
-
-    .info p {
-        font-size: 16px !important;
-        line-height: 0;
-        padding: 15px;
+       display: none;
     }
 
     .buttons {
@@ -323,8 +316,8 @@ button, input {
     }
 
     .buttons button {
-        width: 200px;
-        height: 30px;
+        width: 150px;
+        height: 50px;
         margin: 0;
         font-size: 16px;
         font-weight: 400;
@@ -376,7 +369,6 @@ button, input {
 
     .whyus {
         background-image: none;
-        width: 100vh;
     }
 
     .reasons {
@@ -398,9 +390,14 @@ button, input {
 
     .reasons p {
          padding-top: 20px; 
-         width: 50%;
+         width: 60%;
          margin: auto;
          
+    }
+
+    .reasons img {
+        margin-top: 10px;
+        margin-right: 0;
     }
 
     .reasonsRight p {
@@ -419,9 +416,5 @@ button, input {
 
     .reasons img {
         float: inherit;
-    }
-
-    .idk {
-        width: 100vh;
     }
 }   
