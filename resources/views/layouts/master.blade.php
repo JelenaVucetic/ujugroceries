@@ -48,7 +48,6 @@
         @include('layouts.coupons')
         @include('layouts.footer')
 
-
         @yield('modaljs')
         @yield('modal1js')
         

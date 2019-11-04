@@ -292,9 +292,14 @@ button, input {
 
 
 @media(max-width: 670px) {
+    .main {
+        width: 100vh;
+        margin: auto;
+    }
     .myHeader {
         margin-left: -20px;
         margin-right: -20px;
+        width: 100vh;
     }
     .myHeader h1 {
         line-height: 36px;
@@ -302,19 +307,27 @@ button, input {
     }
     
     .info {
-        padding-top: 81px;
+        margin-top: 50px;
+       flex-direction: column;
     }
 
     .info p {
         font-size: 16px !important;
         line-height: 0;
-        padding: 10px;
+        padding: 15px;
     }
 
-    #ujupaketi {
-        margin-top: 30px !important;
-        width: 250px;
-        font-size: 18px;
+    .buttons {
+        justify-content: space-evenly;
+        margin-top: 50px;
+    }
+
+    .buttons button {
+        width: 200px;
+        height: 30px;
+        margin: 0;
+        font-size: 16px;
+        font-weight: 400;
     }
 
     .title h1 {
@@ -329,6 +342,16 @@ button, input {
 
     .steps {
         flex-direction: column;
+        margin: 0;
+    }
+
+    .part {
+        width: auto;
+        margin-bottom: 50px;
+    }
+
+    .part p {
+        width: 50% !important;
     }
 
     .aboutuju h1 {
@@ -353,19 +376,37 @@ button, input {
 
     .whyus {
         background-image: none;
+        width: 100vh;
     }
 
     .reasons {
         margin-bottom: 0;
+        flex-direction: column;
+        align-content: center;
     }
 
     .reasons div {
         padding-bottom: 0;
+        width: inherit;
+        padding: 0;
+        text-align: center; 
     }
     .reasonsLeft div {
         margin-left: 0;
     
     }
+
+    .reasons p {
+         padding-top: 20px; 
+         width: 50%;
+         margin: auto;
+         
+    }
+
+    .reasonsRight p {
+       padding-left: 0;
+    }
+
     .reasonsLeft div, 
     .reasonsRight div {
         padding-bottom: 10px; 
@@ -376,5 +417,11 @@ button, input {
        margin-right: -20px;
     }
 
+    .reasons img {
+        float: inherit;
+    }
 
+    .idk {
+        width: 100vh;
+    }
 }   

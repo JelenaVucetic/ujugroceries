@@ -62,11 +62,13 @@
     text-decoration: none;
     color: #ed674a;
 }
+
 @media(max-width: 670px) {
     .coupons {
         margin-left: -20px; 
         margin-right: -20px;
         margin-bottom: 0;
+        width: 100vh;
     }
 
     .coupons h1 {
@@ -91,6 +93,5 @@
        margin-left: -20px; 
        margin-right: -20px;
     }
-
 
 }  

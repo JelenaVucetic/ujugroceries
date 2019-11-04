@@ -5,7 +5,7 @@ footer {
 .footer {
     display: flex;
     justify-content: center;
-
+    flex-wrap: wrap;
 }
 
 .footer h4 {
@@ -35,4 +35,14 @@ footer {
 
 .copyright span {
     margin-left: 30px;
+}
+
+@media(max-width: 670px) {
+    footer {
+        width: 100vh;
+    }
+
+    .footer div {
+        margin: 0;
+    }
 }

@@ -99,19 +99,42 @@ nav {
  }
 
 @media(max-width: 670px) {
+
+    #myNav {
+        width: 100vh;
+    }
     .topHeader {
-        width: 106%;
+        justify-content: space-evenly;
+        padding: 0;
+       
     }
     .myHeader {
         padding-top: 20px !important;
     }
 
     .meta {
-        justify-content: inherit;
+        display: inline-block;
+        white-space: nowrap;
+        padding-top: 16px;
     }
 
     .truncate {
     display: none;
+    }
+
+    .topRight {
+        flex-direction: row-reverse;
+    }
+
+    .topRight button {
+        margin: 15px 25px;
+    }
+
+    .topRight p {
+        padding-top: 18px;
+    }
+    .bottomHeader {
+        padding: 0;
     }
 
     #myNav {

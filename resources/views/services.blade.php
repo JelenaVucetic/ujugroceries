@@ -11,15 +11,7 @@
 
 <div class="jumbotron servicesHeader"> 
     <div class="package">
-        <div class="packageLeft">
-            <h4>5 &euro; / Mjesečno</h4>
-            <div></div>
-            <h3>UJU NEDELJOM</h3>
-            <p>
-                <span>UJU Nedeljom</span> 
-                je paket kojim dobijate dostavu hljeba i mlijeka po vašoj želji u 
-                poslednjem danu u sedmici kada vama odgovara do 12h. želimo da vaša nedelja počne 
-                bez presija i obaveza, prepustite se tom danu i uzmite ga samo za sebe!
+        <div classqpresija i obaveza, prepustite se tom danu i uzmite ga samo za sebe!
             </p>
         </div>
     

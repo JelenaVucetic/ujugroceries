@@ -19,7 +19,7 @@
             <p>DOSTAVA NA VRIJEME</p>
         </div>
     </div>
-        <div>
+        <div class="main">
             <div class="title">
                 <h1>IZABERITE <span>HLJEB, MLIJEKO, JOGURT I/ILI NOVINE</span></h1>
                 <p>Po vašoj želji, a ponudu pogledajte ispod.</p>
