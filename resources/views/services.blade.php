@@ -11,17 +11,17 @@
 
 <div class="jumbotron servicesHeader"> 
     <div class="package">
-            <div class="packageLeft">
-                    <h4>15 &euro; / Mjesečno</h4>
-                    <div style="backround-color: blue;"></div>
-                    <h3>UJU NEDELJOM</h3>
-                    <p>
-                        <span>UJU Nedeljom</span>
-                        je paket kojim dobijate dostavu hljeba i mlijeka po vašoj želji u poslednjem danu u sedmici u vrijeme
-                        kada vama odgovara do 12h. Želimo da vaša nedelja počne bez presija i obaveza, prepustite se tom danu i 
-                        uzmite ga samo za sebe!
-                    </p>
-                </div>
+        <div class="packageLeft">
+            <h4>5 &euro; / Mjesečno</h4>
+            <div style="backround-color: blue;"></div>
+            <h3>UJU NEDELJOM</h3>
+            <p>
+                <span>UJU Nedeljom</span>
+                je paket kojim dobijate dostavu hljeba i mlijeka po vašoj želji u poslednjem danu u sedmici u vrijeme
+                kada vama odgovara do 12h. Želimo da vaša nedelja počne bez presija i obaveza, prepustite se tom danu i 
+                uzmite ga samo za sebe!
+            </p>
+        </div>
     
         <div class="packageRight">
             <h4>15 &euro; / Mjesečno</h4>
@@ -49,22 +49,22 @@
     <div class="servicesProducts">
         <div>
             <h3>Hljeb</h3>
-            <img src="/images/Bread.png" alt="">
+            <img src="/images/85.jpg" alt="">
             <p>Da li volite kada vas ujutru na stolu za doručak dočeka topao, svjež hljeb?</p>
         </div>
         <div>
             <h3>Mlijeko</h3>
-            <img src="/images/Milk.png" alt="">
+            <img src="/images/89.jpg" alt="">
             <p>Ne dozvolite sebi da Vi ili vaša djeca ostanete bez mlijeka za doručak.</p>
         </div>
         <div>
             <h3>Jogurt</h3>
-            <img src="/images/yogurt.png" alt="">
+            <img src="/images/364.jpg" alt="">
             <p>Za sve one kojima jogurt predstavlja primarno piće uz jutanje obroke.</p>
         </div>
         <div>
             <h3>Novine</h3>
-            <img src="/images/Novine.png" alt="">
+            <img src="/images/145.jpg" alt="">
             <p>Budite u toku sa svakodnevnim vijestima čak i kada je toliko hladno ili pada kiša, da vam se ne izlazi do prodavnice.</p>
         </div>
     </div>
@@ -77,7 +77,7 @@
     @include('layouts.modal1')
 
 
-    <div>
+
     <div class="petTitle">
         <h1>UJU Pet - Namirnice za kućne ljubimce</h1>
         <h3>Ne smijemo zapostaviti zdravlje niti ishranu nijednog ukućana, tako vam UJU Pet nudi sve što vam je potrebno
@@ -93,22 +93,22 @@
     <div class="petProducts">
             <div>
                 <h3>Granule</h3>
-                <img src="/images/" alt="">
+                <img src="/images/Granule.jpg" alt="">
                 <p>Uskoro više detalja.</p>
             </div>
             <div>
                 <h3>Keksići</h3>
-                <img src="/images/" alt="">
+                <img src="/images/Keksici.jpg" alt="">
                 <p>Uskoro više detalja.</p>
             </div>
             <div>
                 <h3>Uskoro još</h3>
-                <img src="/images/" alt="">
+                <img src="/images/Uskoro.jpg" alt="">
                 <p>Uskoro više detalja.</p>
             </div>
             <div>
                 <h3>Uskoro još</h3>
-                <img src="/images/" alt="">
+                <img src="/images/Uskoro.jpg" alt="">
                 <p>Uskoro više detalja.</p>
             </div>
         </div>

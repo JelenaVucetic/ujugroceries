@@ -8,14 +8,15 @@
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(255, 255, 255, 0.692); /* Black w/ opacity */
+    background-color: transparent; /* Black w/ opacity */
     font-family: 'Roboto Slab', serif;
     display: none;
 }
 
+
   /* Modal Content */
   .modal-content {
-    background-color: #fefefe;
+    background-color: #fefefeea;
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
@@ -41,11 +42,22 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 50%;
+    padding: 50px;
+    padding-bottom: 30px;
 }
 
 .mymodal h3 {
     text-align: center;
+    color: #454d66;
+    font-weight: 800;
+}
+
+.mymodal h4 {
+    text-align: center;
+    color: #454d66;
+    font-weight: 100;
+    font-size: 24px;
 }
 
 .myForm {
@@ -61,15 +73,16 @@
 
 
 .modalbtn {
-    margin: 20px 0px;
+    margin-top: 50px;
+    margin-bottom: 20px;
     background-color: #ed674a;
     color: white;
-    font-size: 28px;
+    font-size: 16px;
     font-weight: 600;
-    width: 200px;
-    padding: 15px;
+    width: 100px;
+    padding: 10px;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .left label {
@@ -80,7 +93,7 @@
 }
 
 .left label:hover {
-    background-color:rgb(238, 195, 85) ;
+    background-color: #ed674a ;
 }
 
 
@@ -97,10 +110,14 @@ textarea {
 }
 
 .right label:hover {
-    background-color:rgb(238, 195, 85) ;
+    background-color: #ed674a ;
 }
 
 .personalInfo {
+    margin-top: 20px;
+}
+
+.personalInfo div{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -109,11 +126,15 @@ textarea {
 .personalInfo input {
     width: 375px;
     padding: 15px;
-    border: 1px solid 	#191970;
+    box-shadow: 3px 3px #f0f0f0;
+}
+
+.personalInfo input::placeholder {
+   text-align: center;
 }
 
 .personalInfo p {
-    color: 	#808080
+    color: 	#bbbbbb;
 }
 
 
@@ -124,37 +145,42 @@ textarea {
     align-items: baseline;
 }
 
-.time select {
-    width: 50px;
+.time label {
+    color: #454d66;
+    font-size: 16px;
 }
 
-.time span {
-    margin-left: 30px;
-    margin-right: 10px;
+.time select {
+    width: 120px;
+    margin: 10px;
+    border: 1px solid #ed674a;
+    padding-left: 35px;
 }
 
 .mymodalbtn {
     margin-top: 0;
-    border: 1px solid rgb(42, 24, 77);
-    border-radius: 10px;
-    color: black;
+    border-radius: 5px;
+    color: white;
     text-decoration: none;
+    height: 40px;
+    background: #ed674a;
 }
 
 .mymodalbtn:hover {
-    background-color: rgb(238, 195, 85);
-    color: rgb(0,0,0);
+    background-color: #e74b37;;
+    color:white;
     text-decoration: none;
-    border: 1px solid rgb(30, 23, 36);
-    border-radius: 10px;
+
 }
 
 .mymodalbtn:focus {
     outline: none !important;
+    color: white;
 }
 
 .mymodalbtn[aria-expanded="false"] {
-    background-color: white !important;
+    background-color: #ed674a !important;
+    color: white;
 }
 
 #accordionExample {
@@ -162,6 +188,7 @@ textarea {
     margin: auto;
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 .card {
@@ -172,8 +199,14 @@ textarea {
     width: 200px;
 }
 
+.ordertime {
+    margin-left: -26px;
+}
+
 .ordertime input {
-    width: 50px !important;
+    width: 120px;
+    margin: 10px;
+    border: 1px solid #ed674a;
 }
 
 @media(max-width:670px) {

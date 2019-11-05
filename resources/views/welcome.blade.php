@@ -27,22 +27,22 @@
             <div class="products">
                 <div>
                     <h3>Hljeb</h3>
-                    <img src="/images/Bread.png" alt="">
+                    <img src="/images/85.jpg" alt="">
                     <p>Da li volite kada vas ujutru na stolu za doručak dočeka topao, svjež hljeb?</p>
                 </div>
                 <div>
                     <h3>Mlijeko</h3>
-                    <img src="/images/Milk.png" alt="">
+                    <img src="/images/89.jpg" alt="">
                     <p>Ne dozvolite sebi da Vi ili vaša djeca ostanete bez mlijeka za doručak.</p>
                 </div>
                 <div>
                     <h3>Jogurt</h3>
-                    <img src="/images/yogurt.png" alt="">
+                    <img src="/images/364.jpg" alt="">
                     <p>Za sve one kojima jogurt predstavlja primarno piće uz jutanje obroke.</p>
                 </div>
                 <div>
                     <h3>Novine</h3>
-                    <img src="/images/Novine.png" alt="">
+                    <img src="/images/145.jpg" alt="">
                     <p>Budite u toku sa svakodnevnim vijestima čak i kada je toliko hladno ili pada kiša, da vam se ne izlazi do prodavnice.</p>
                 </div>
             </div>
