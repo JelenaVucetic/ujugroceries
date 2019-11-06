@@ -198,7 +198,7 @@
     flex-wrap: wrap;
     justify-content: center;
 
-    margin-bottom: 300px;
+    margin-bottom: 100px;
 }
 
 .petProducts div {
@@ -240,6 +240,7 @@
     
     .servicesTitle{
         margin: 0;
+        margin-top: 70px;
         width: 100%;
     }
 
@@ -287,12 +288,14 @@
     }
 
     .petTitle {
+        width: auto;
         margin: auto;
     }
 
     .petProducts {
         background: none; 
         margin: 0;
+        margin-bottom: 1335px;
     }
 
     .petTitle h1 {
@@ -302,10 +305,6 @@
 
     .petTitle h3 {
         font-size: 17px;
-    }
-
-    .petProducts {
-        margin-bottom: 400px;
     }
 
     .petProducts div {

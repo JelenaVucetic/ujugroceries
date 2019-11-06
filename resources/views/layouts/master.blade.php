@@ -45,7 +45,6 @@
     <body>
         @include('layouts.header')
         @yield('content')
-        @include('layouts.coupons')
         @include('layouts.footer')
 
         @yield('modaljs')

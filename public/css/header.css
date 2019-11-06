@@ -149,7 +149,13 @@ nav {
     #myNavbar ul {
         display: flex !important;
         flex-direction: column !important;
+        margin-top: -20px;
     }
+
+    #myNavbar ul a {
+       padding: 2px;
+    }
+
 
     .myNav li {
          border-right: none; 

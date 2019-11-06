@@ -1,5 +1,12 @@
-.coupons {
+.coupons1 {
     background-image: url('/images/Green-Box-Subscribe.jpg');
+    background-position: 100%;
+    margin-bottom: -10px;
+    width: 1080px;
+}
+
+.coupons2 {
+    background-image: url('/images/Red-Yellow-Box.jpg');
     background-position: 100%;
     margin-bottom: -10px;
     width: 1080px;
@@ -12,6 +19,15 @@
     font-weight: 600;
     font-size: 43px;
     margin-top: 30px;
+}
+
+#serviceCupons {
+    width: 65%;
+    margin: 60px auto 10px;
+    line-height: 47px;
+    font-weight: 800;
+    font-size: 33px;
+    margin-top: 60px;
 }
 
 .coupons form {

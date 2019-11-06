@@ -219,6 +219,10 @@ textarea {
         line-height: 20px;
     }
 
+    .mymodal h4 {
+        width: 265px;
+    }
+
     #myModal img {
         width: 200px;
         margin-bottom: 20px;
@@ -246,8 +250,8 @@ textarea {
     }
 
     .personalInfo {
-        align-items: flex-start;
         margin-left: 50px;
+        width: 170px;
     }
 
     .personalInfo input {
@@ -272,10 +276,16 @@ textarea {
 
     .time select {
         margin-right: 10px; 
+        width: 165px;
+        padding-left: 59px;
     }
+
+    .time label {
+        text-align: center;
+    }
+
     .ordertime {
         display: flex;
-        margin-left: 10px;
     }
 
     .card {

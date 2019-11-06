@@ -28,7 +28,8 @@
         </div>
     </div>
 
-    <div class="footer-copyright py-3 copyright">© 2019 QQRIQ &trade;    
+    <div class="footer-copyright py-3 copyright">
+       <p>© 2019 QQRIQ &trade;</p>
         <span>Made with love. <i class="fa fa-heart" style="margin-left: 20px"></i></span>
         </div>
 </footer>

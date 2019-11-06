@@ -70,27 +70,27 @@
     </div>
             
     
-    <div class="servicesOrdering">
-        <button id="servicesBtn"> Naručite namirnice po želji</button>
-        <p>Ujutru će biti dostavljene na vratima vašeg doma.</p>
-    </div>
+        <div class="servicesOrdering">
+            <button id="servicesBtn"> Naručite namirnice po želji</button>
+            <p>Ujutru će biti dostavljene na vratima vašeg doma.</p>
+        </div>
     @include('layouts.modal1')
 
 
 
-    <div class="petTitle">
-        <h1>UJU Pet - Namirnice za kućne ljubimce</h1>
-        <h3>Ne smijemo zapostaviti zdravlje niti ishranu nijednog ukućana, tako vam UJU Pet nudi sve što vam je potrebno
-             za vaše najslađe članove domaćinstva.
-        </h3>
-        <p>
-            Sve namirnice koje odaberete možete poručiti najkasnije jedan dan prije željenog dana dostave do 18h. Još informacija
-            o dostupnoj hrani za kućne ljubimce <span>USKORO!</span>
-        </p> 
-    </div>
+        <div class="petTitle">
+            <h1>UJU Pet - Namirnice za kućne ljubimce</h1>
+            <h3>Ne smijemo zapostaviti zdravlje niti ishranu nijednog ukućana, tako vam UJU Pet nudi sve što vam je potrebno
+                za vaše najslađe članove domaćinstva.
+            </h3>
+            <p>
+                Sve namirnice koje odaberete možete poručiti najkasnije jedan dan prije željenog dana dostave do 18h. Još informacija
+                o dostupnoj hrani za kućne ljubimce <span>USKORO!</span>
+            </p> 
+        </div>
 
 
-    <div class="petProducts">
+        <div class="petProducts">
             <div>
                 <h3>Granule</h3>
                 <img src="/images/Granule.jpg" alt="">
@@ -112,7 +112,28 @@
                 <p>Uskoro više detalja.</p>
             </div>
         </div>
-    </div>
+    
+          
+        <div class="ordering">
+                <button id="myBtn"> Naruči namirnice po želji</button>
+                 <p>Ujutru će biti dostavljene na vratima vašeg doma.</p>
+             </div>
+
+        <div class="container coupons coupons2">
+                <h1 id="serviceCupons">Kada ste poslednji put propustili doručak jer vam je bilo teško poći do prodavnice?</h1>
+                <form action="">
+                        @csrf
+                    <div class="formElem">
+                        <input type="email" placeholder="Vaša Email adresa">
+                        <button>Prijavi se</button>
+                        <button>Naruči</button>
+                    </div>
+                </form>
+            </div>
+            
+            <div class="idk">
+                <p>Tražite cjenovnik? Paketi dostave namirnica počinju od samo 5 &euro; /mj. <a href="">Pogledaj UJU pakete</a></p>
+            </div>
 @endsection
 
 @section('modal1js')
