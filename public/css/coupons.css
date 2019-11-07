@@ -84,7 +84,7 @@
     margin: 20px;
 }
 
-@media(max-width: 670px) {
+@media(max-width: 1200px) {
     .coupons {
         margin-left: -20px; 
         margin-right: -20px;

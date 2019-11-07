@@ -11,6 +11,7 @@ var span = document.getElementsByClassName("close")[0];
 btn.onclick = function() {
   modal.style.display = "block";
   document.getElementById('myNav').style.display = "none";
+  document.body.style.overflow = 'hidden';
   modal.classList.remove('slideOutDown');
 }
 
@@ -19,7 +20,7 @@ span.onclick = function() {
   modal.classList.add('slideOutDown');
  //modal.style.display = "none";
  //document.getElementById('myNav').style.display = "block";
-
+ document.body.style.overflow = 'auto';
   setTimeout(function(){
     document.getElementById('myNav').style.display = "block";
    }, 1000);
@@ -30,6 +31,7 @@ window.onclick = function(event) {
   if (event.target == modal) {
     setTimeout(function(){
       document.getElementById('myNav').style.display = "block";
+      document.body.style.overflow = 'auto';
      }, 1000);
     modal.classList.add('slideOutDown'); 
   }

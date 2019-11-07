@@ -114,7 +114,7 @@
         </div>
     
           
-        <div class="ordering">
+        <div class="ordering" style="margin-top: -20px;">
                 <button id="myBtn"> Naruči namirnice po želji</button>
                  <p>Ujutru će biti dostavljene na vratima vašeg doma.</p>
              </div>

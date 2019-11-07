@@ -29,6 +29,7 @@ footer {
 }
 
 .copyright {
+    display: flex;
     padding: 20px 100px;
     color: grey;
 }

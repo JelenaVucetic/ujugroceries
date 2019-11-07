@@ -1,3 +1,9 @@
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: -20px !important;
+    background-color: rgba(255, 255, 255, 0.911) !important;
+}
+
+
 nav {
     font-family: 'Roboto Slab', serif;
 }
@@ -98,12 +104,17 @@ nav {
     background-color: #e74b37;
  }
 
-@media(max-width: 670px) {
+ 
+@media(max-width: 1200px) {
+     .collapse.in {
+        background-color: rgba(255, 255, 255, 0.911) !important;
+    }
 
     .topHeader {
         justify-content: space-evenly;
         padding: 0;
-        margin-right: -20px
+        margin-right: -20px;
+        padding-bottom: 20px;
        
     }
     .myHeader {
@@ -140,16 +151,14 @@ nav {
         padding-top: 18px;
     }
     .bottomHeader {
-        padding: 0;
+        padding: 10px;
     }
 
     #myNav {
         margin-right: 0;
     }
     #myNavbar ul {
-        display: flex !important;
-        flex-direction: column !important;
-        margin-top: -20px;
+        margin-top: -15px;
     }
 
     #myNavbar ul a {
@@ -158,6 +167,14 @@ nav {
 
 
     .myNav li {
-         border-right: none; 
+        padding-right: 10px ;
+    }
+}
+
+@media(max-width: 578px) {
+    #myNavbar ul {
+        display: flex !important;
+        flex-direction: column !important;
+        margin-top: -20px;
     }
 }

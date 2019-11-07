@@ -12,12 +12,12 @@ class SendOrderEmailController extends Controller
 {
     public function send(Request $request) 
     {
-       
+       //dd($request);
+
         $this->validate($request, [
             'name' => 'required',
             'phone' => 'required',
             'adress' => 'required',
-            'email' => 'required|email',
             'time' => 'required'
             ]);
         
@@ -34,6 +34,7 @@ class SendOrderEmailController extends Controller
             
         );
 
+        //dd($order);
         Mail::to('poruci@ujunamirnice.me')->send(new OrderMail($order));
 
         return back()->with('success', 'Hvala vaša porudžbina je uspješna!');

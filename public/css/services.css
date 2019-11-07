@@ -13,7 +13,6 @@
  .servicesTitle h1 {
      color: #454d66;
     font-size: 55.5px;
-    text-align: -webkit-left;
     line-height: 60px;
  }
 
@@ -218,12 +217,12 @@
 
 .petProducts img {
     width: 100%;
-    height: 250px;
+    height: 200px;
 }
 
 .petProducts p {
     width: 263px;
-    padding: 20px;
+    padding: 60px;
     padding-bottom: 8px;
     font-size: 14px;
     color: white;
@@ -233,15 +232,14 @@
 
 
 
-@media(max-width:670px) {
+@media(max-width:1200px) {
     .servicesHeader {
         background: none;
     }
     
     .servicesTitle{
-        margin: 0;
-        margin-top: 70px;
-        width: 100%;
+        width: 80%;
+        margin: 200px auto 0;
     }
 
     .servicesTitle h1 {
@@ -250,6 +248,22 @@
     }
     .package {
        flex-direction: column;
+    }
+
+    .packageLeft, .packageRight {
+        width: 50%;
+        margin: auto;
+        align-items: center;
+    }
+
+
+    element.style {
+        text-align: center;
+    }
+
+    .packageLeft h3, .packageRight h3 {
+         margin-left: 0; 
+        text-align: center;
     }
 
     .packageLeft div,
@@ -265,9 +279,8 @@
     }
 
     .servicesSingle{
-         width: auto; 
+        width: 80%;
         margin: 870px auto 0;
-        text-align: start;
     }
 
     .servicesSingle h1 {
@@ -284,18 +297,18 @@
     }
 
     .servicesOrdering {
-        margin-top: 1411px;
+        margin-top: 600px;
     }
 
     .petTitle {
-        width: auto;
+        width: 80%;
         margin: auto;
     }
 
     .petProducts {
         background: none; 
         margin: 0;
-        margin-bottom: 1335px;
+        margin-bottom: 600px;
     }
 
     .petTitle h1 {
@@ -311,3 +324,29 @@
         margin: 20px 10px;
     }
 } 
+
+
+@media(max-width: 578px) {
+    .packageLeft, .packageRight {
+            width: initial;
+            margin: initial;
+        }
+
+    .packageLeft h3, .packageRight h3 {
+        margin-left: ; 
+        text-align: ;
+    }
+
+    .servicesTitle {
+        margin-top: 50px;
+    }
+
+    .servicesOrdering {
+        margin-top: 1411px;
+    }
+     
+    .petProducts {
+        margin-bottom: 1335px;
+    }
+   
+}
