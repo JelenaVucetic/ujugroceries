@@ -6,7 +6,7 @@
 
 @section('content')   
     <div class="jumbotron text-center myHeader" style="margin-bottom:0">
-        <h1>MI DOSTAVLJAMO NAMIRNICE  <br>   KOJE VAM SVAKOG JUTRA TREBAJU</h1>
+        <h1  class="animated fadeIn">MI DOSTAVLJAMO NAMIRNICE  <br>   KOJE VAM SVAKOG JUTRA TREBAJU</h1>
         <p>Hljeb, mlijeko, jogurt i/ili novine</p> 
         <div class="buttons">
             <button id="ujupaketi">UJU paketi namirnica</button>
@@ -24,28 +24,70 @@
                 <h1>IZABERITE <span>HLJEB, MLIJEKO, JOGURT I/ILI NOVINE</span></h1>
                 <p>Po vašoj želji, a ponudu pogledajte ispod.</p>
             </div>
+
+            <h1 style="text-align: center">Pojedinačne namirnice</h1>
             <div class="products">
-                <div>
-                    <h3>Hljeb</h3>
+                <div id="test">
+                    <h3 >Hljeb</h3>
                     <img src="/images/85.jpg" alt="">
                     <p>Da li volite kada vas ujutru na stolu za doručak dočeka topao, svjež hljeb?</p>
                 </div>
-                <div>
+                <div id="test1">
                     <h3>Mlijeko</h3>
                     <img src="/images/89.jpg" alt="">
                     <p>Ne dozvolite sebi da Vi ili vaša djeca ostanete bez mlijeka za doručak.</p>
                 </div>
-                <div>
+                <div  id="test2">
                     <h3>Jogurt</h3>
                     <img src="/images/364.jpg" alt="">
                     <p>Za sve one kojima jogurt predstavlja primarno piće uz jutanje obroke.</p>
                 </div>
-                <div>
+                <div  id="test3">
                     <h3>Novine</h3>
                     <img src="/images/145.jpg" alt="">
                     <p>Budite u toku sa svakodnevnim vijestima čak i kada je toliko hladno ili pada kiša, da vam se ne izlazi do prodavnice.</p>
                 </div>
+
             </div>
+
+            <h1 style="text-align: center">Namirnice za pse</h1>
+             <div class="petProducts" style="background: none; margin-top: -50px; ">
+                <div>
+                    <h3>Granule</h3>
+                    <img src="/images/Granule.jpg" alt="">
+                    <p>Uskoro više detalja.</p>
+                </div>
+                <div>
+                    <h3>Keksići</h3>
+                    <img src="/images/Keksici.jpg" alt="">
+                    <p>Uskoro više detalja.</p>
+                </div>
+                <div>
+                    <h3>Uskoro još</h3>
+                    <img src="/images/Uskoro.jpg" alt="">
+                    <p>Uskoro više detalja.</p>
+                </div>
+                <div>
+                    <h3>Uskoro još</h3>
+                    <img src="/images/Uskoro.jpg" alt="">
+                    <p>Uskoro više detalja.</p>
+                </div>
+            </div>
+            
+            <h1 style="text-align: center; padding-top:100px;">Paketi</h1>
+            <div class="products">
+                <div  style="background: #4b9f48;">
+                    <h3 style="color:white;">Paket 1</h3>
+                    <img src="/images/Uskoro.jpg" alt="">
+                    <p style="color:white;">Uskoro više detalja.</p>
+                </div>
+                <div  style="background: #4b9f48; color:white">
+                    <h3 style="color:white;">Paket 2</h3>
+                    <img src="/images/Uskoro.jpg" alt="">
+                    <p style="color:white;" >Uskoro više detalja.</p>
+                </div>
+            </div>
+        
             
             <div class="ordering">
                <button id="myBtn"> Naruči namirnice po želji</button>

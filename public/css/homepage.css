@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Roboto Slab', serif;
 }
@@ -27,7 +28,10 @@ button, input {
     font-size: 50px;
     line-height: 70px;
     font-weight: 600;
+
+    animation-duration: 3s;
 }
+
 
 .myHeader p {
     padding: 10px;
@@ -63,6 +67,7 @@ button, input {
     margin-top: 200px;
     flex-wrap: wrap;
     padding-top: 20px;
+    padding-bottom: 20px;
     background-color: #454d66c2;
 }
 
@@ -94,7 +99,8 @@ button, input {
 }
 
 .products {
-    margin: 50px 0px;
+    width: 80%;
+    margin: 50px auto 0px;
     margin-bottom: 0;
     display: flex;
     flex-wrap: wrap;

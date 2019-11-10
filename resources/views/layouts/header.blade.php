@@ -10,6 +10,10 @@
                 </div>
             </div>
     <div class="container-fluid bottomHeader">
+        <span id="span" style="width: 100%;
+        height: 5px;
+        background: red;
+        display: block;"></span>
       <div class="navbar-header">
         <button type="button" class="navbar-toggle mybtn" data-toggle="collapse" data-target="#myNavbar">
           <span class="icon-bar"></span>
@@ -20,13 +24,14 @@
       </div>
       <div class="collapse navbar-collapse navbar-right myNav" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li><a href="/">Početna</a></li>
-          <li><a href="/usluge">UJU Usluge</a></li>
-          <li><a href="/kakoporuciti">Kako poručiti?</a></li>
-          <li><a href="/o-nama">Zašto UJU?</a></li>
-          <li><a href="/kontakt">Kontakt</a></li>
+          <li {{ (current_page("/")) ? 'id=activeLInk' : '' }}><a href="/">Početna</a></li>
+          <li {{ (current_page("usluge")) ? 'id=activeLInk' : '' }}><a href="/usluge">UJU Usluge</a></li>
+          <li {{ (current_page("kakoporuciti")) ? 'id=activeLInk' : '' }}><a href="/kakoporuciti">Kako poručiti?</a></li>
+          <li {{ (current_page("o-nama")) ? 'id=activeLInk' : '' }}><a href="/o-nama">Zašto UJU?</a></li>
+          <li {{ (current_page("kontakt")) ? 'id=activeLInk' : '' }}><a href="/kontakt">Kontakt</a></li>
         </ul>
       </div>
     </div>
+    
 </nav>
 

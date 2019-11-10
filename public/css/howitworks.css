@@ -1,8 +1,10 @@
 .howHeader {
-    background-image: url("/images/slider3.jpg");
+    background-image: url(/images/slider3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 700px;
+    height: 325px;
+    margin-top: 150px;
+    background-position: center;
 }
 
 
@@ -11,9 +13,10 @@
     width: 40%;
     position: absolute;
     top: 200px;
-    left: 238px;
+    left: 200px;
     line-height: initial;
     font-weight: 100;
+    font-size: 59px;
 }
 
 .new {

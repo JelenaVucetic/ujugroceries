@@ -1,15 +1,16 @@
 .contactHeader {
-    background-image: url("/images/slider3.jpg");
-    margin-bottom: 0;
+    background-image: url(/images/slider3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    color: white !important; 
-    height: 70vh;
+    height: 325px;
+    margin-top: 150px;
+    background-position: center;
 }
 
 .contactHeader h1 {
     color: #ed674a;
-    margin-top: 150px;
+    margin-top: 50px;
+    margin-right: 150px;
     text-align: center;
 }
 
@@ -63,14 +64,14 @@
 }
 
 #contactBtn {
-    width: 470px;
-    height: 65px;
+    width: 300px;
+    height: 50px;
     background-color: #ed674a;
     border: none;
     border-radius: 5px;
     margin: 20px 0;
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 21px;
+    font-weight: 400;
     color: white;
 }
 

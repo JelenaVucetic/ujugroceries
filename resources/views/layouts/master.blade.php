@@ -42,7 +42,11 @@
         @yield('modal1css')
    
         <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
-      
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
     </head>
     <body>
         @include('layouts.header')
@@ -53,7 +57,52 @@
         @yield('modal1js')
         
 
-            @include('sweetalert::alert')
+        @include('sweetalert::alert')
+
+        <?php 
+            function current_page($uri = "/") {
+                return request()->path() == $uri;
+            }
+        ?>
+
+
+<script>
+    let tl = new TimelineMax(); 
+    const controller = new ScrollMagic.Controller();
+
+    tl.from("#test", .8, {x: -500, opacity: 0});
+    tl.from("#test1", .8, {x: -500, opacity: 0}, "=-.4");
+    tl.from("#test2", .8, {x: -500, opacity: 0}, "=-.4");
+    tl.from("#test3", .8, {x: -500, opacity: 0}, "=-.4");
+
+
+    const scene = new ScrollMagic.Scene({
+        triggerElement: ".main"
+    })
+        .setTween(tl)
+            .addTo(controller);
     
+</script>
+
+<script> 
+
+    let tl2 = new TimelineMax({onUpdate: updatePercentage});
+    const controller = new ScrollMagic.Controller();
+
+        tl2.from("#span", 1, {width:0}, "=-.1");
+    
+        const scene2 = new ScrollMagic.Scene({
+             triggerElement: "body",
+             duration: 100%
+         })
+             .setPin(".main")
+             .setTween(tl2)
+                .addTo(controller);
+    
+         function updatePercentage() {
+             t1.progress();
+         }   
+        
+        </script>
     </body>
 </html>

@@ -50,73 +50,13 @@ function change() {
   if( document.getElementById("choosedTime").value == 9) {
    document.getElementById("autofill").value = "10.00h";
     }
-    if( document.getElementById("choosedTime").value == 8) {
-      document.getElementById("autofill").value = "9.00h";
-       }
-       if( document.getElementById("choosedTime").value == 11) {
-        document.getElementById("autofill").value = "12.00h";
-         }
+if( document.getElementById("choosedTime").value == 8) {
+  document.getElementById("autofill").value = "9.00h";
+    }
+    if( document.getElementById("choosedTime").value == 11) {
+    document.getElementById("autofill").value = "12.00h";
+      }
 }
-
-
-
-// function showBreadTextarea() {
-//   var selectedobj=document.getElementById('showbread');
- 
-//    if(selectedobj.className=='hide'){  //check if classname is hide 
-//      selectedobj.style.display = "block";
-//      selectedobj.className ='show';
-//      document.getElementById('bread').style.backgroundColor = 'rgb(238, 195, 85)';
-//    }else{
-//      selectedobj.style.display = "none";
-//      selectedobj.className ='hide';
-//      document.getElementById('bread').style.backgroundColor = 'white';
-//   }
-//  }
-
-//  function showMilkTextarea() {
-//   var selectedobj=document.getElementById('showmilk');
- 
-//    if(selectedobj.className=='hide'){  //check if classname is hide 
-//      selectedobj.style.display = "block";
-//      selectedobj.className ='show';
-//      document.getElementById('milk').style.backgroundColor = 'rgb(238, 195, 85)';
-//    }else{
-//      selectedobj.style.display = "none";
-//      selectedobj.className ='hide';
-//      document.getElementById('milk').style.backgroundColor = 'white';
-//   }
-//  }
-
-//  function showYogurtTextarea() {
-//   var selectedobj=document.getElementById('showyogurt');
- 
-//    if(selectedobj.className=='hide'){  //check if classname is hide 
-//      selectedobj.style.display = "block";
-//      selectedobj.className ='show';
-//      document.getElementById('yogurt').style.backgroundColor = 'rgb(238, 195, 85)';
-//    }else{
-//      selectedobj.style.display = "none";
-//      selectedobj.className ='hide';
-//      document.getElementById('yogurt').style.backgroundColor = 'white';
-//   }
-//  }
-
-//  function showPapersTextarea() {
-//   var selectedobj=document.getElementById('showpapers');
- 
-//    if(selectedobj.className=='hide'){  //check if classname is hide 
-//      selectedobj.style.display = "block";
-//      selectedobj.className ='show';
-//      document.getElementById('papers').style.backgroundColor = 'rgb(238, 195, 85)';
-//    }else{
-//      selectedobj.style.display = "none";
-//      selectedobj.className ='hide';
-//      document.getElementById('papers').style.backgroundColor = 'white';
-//   }
-//  }
-
-
 
   function changeBreadCss() {
    let x=document.getElementById('bread'); 
@@ -125,7 +65,7 @@ function change() {
      x.style.textDecoration = 'none'; 
   }
 
-  function changeMilkCss() {7
+  function changeMilkCss() {
     let y=document.getElementById('milk');
    y.style.backgroundColor = '#e74b37';
    y.style.color = 'white';
