@@ -1,0 +1,55 @@
+.questions {
+    width: 70%;
+    margin: auto;
+}
+
+.questions h3 {
+    text-align: center;
+    font-size: 63.5px;
+    color: #454d66;
+}
+
+.questions p {
+    text-align: center;
+    font-size: 16px;
+    padding: 20px;
+    color: #bbbbbb;
+}
+
+.questions .card {
+    margin: 5px 10px;
+}
+
+.questions .card-header {
+    background: #F0F0F0;
+    padding: 10px;
+}
+
+.questions a {
+    text-decoration: none;
+}
+
+.questions h5 {
+    color: #636B82;
+    text-align: center;
+    font-size: 18px;
+}
+
+.questions i {
+    float: right;
+}
+
+
+@media(max-width: 1200px) {
+    .questions {
+        width: 90%;
+    }
+
+    .questions h3 {
+        font-size: 32.5px;
+    }
+
+    .questions h5 {
+        font-size: 15px;
+    }
+}

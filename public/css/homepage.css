@@ -39,12 +39,7 @@ button, input {
     font-weight: 500;
 }
 
-.buttons {
-    display: flex;
-    justify-content: center;
-}
-
-.buttons button {
+.offerBtn {
     width: 300px;
     height: 50px;
     background-color: white;
@@ -56,7 +51,7 @@ button, input {
     font-weight: 400;
 }
 
-.buttons button:hover {
+.offerBtn:hover {
     background-color: #e74b37;
     color: white;
 }
@@ -141,7 +136,6 @@ button, input {
 .ordering {
     text-align: center;
     margin-bottom: 40px;
-    margin-top: -80px;
 }
 
 #myBtn {
@@ -166,14 +160,18 @@ button, input {
     padding: 27px !important;
 }
 
+.about {
+    background-color: #454d66;
+}
 .aboutuju {
+    background-color: #454d66;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 70px;
 }
 
 .aboutuju h1 {
-    color: #454d66; 
+    color: white; 
     font-weight: 100;
     font-size: 46px;
 }
@@ -192,6 +190,11 @@ button, input {
     margin-right: 50px;
 }
 
+.steps span {
+    color: white;
+    padding-top: 70px;
+}
+
 .part {
     display: flex;
     flex-direction: column;
@@ -205,14 +208,14 @@ button, input {
 
 .part p {
     font-size: 15px;
-    color: #454d66;
+    color: white;
     line-height: 20px;
      text-align: center;
     margin-top: 20px;
 }
 
 .part p:nth-child(odd) {
-    color: #656f8b;
+    color: #d9d872;
 }
 
 .whyus {
@@ -315,6 +318,11 @@ button, input {
         margin: 73px 0;
         line-height: 66px;
         font-size: 40px;
+    }
+
+    
+    .myHeader p {
+        display: none;
     }
     
     .info {
@@ -431,12 +439,38 @@ button, input {
     .reasons img {
         float: inherit;
     }
+
 }   
 
 
 
 @media(max-width:578px) {
     .myHeader {
-        margin-top: -70px;
+        margin-top: 80px;
     }
+
+    .myHeader h1 {
+        line-height: 48px;
+        font-size: 21px;
+        padding: 125px 20px;
+        padding-bottom: 35px;
+    }
+
+    .steps span {
+        display: none;
+    }
+
+    .whyusTitle h1 {
+        font-size: 36px;
+        line-height: 43px;
+    }
+
+    .whyusTitle {
+        margin-top: 0;
+    }
+
+    .offerBtn {
+        margin: 0    20px;
+    }
+
 }

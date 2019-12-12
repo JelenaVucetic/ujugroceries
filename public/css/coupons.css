@@ -127,3 +127,10 @@
        flex-direction: column;
     }
 }  
+
+
+@media(max-width: 578px) {
+    .idk {
+        margin-bottom: 30px;
+    }
+}

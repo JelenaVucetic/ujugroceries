@@ -5,14 +5,13 @@
 }
  
  .servicesTitle {
-    margin-top: 250px;
     width: 65%;
-    margin: 230px 200px 50px;
+    margin: 70px auto 50px;
  }
 
  .servicesTitle h1 {
      color: #454d66;
-    font-size: 55.5px;
+    font-size: 50px;
     line-height: 60px;
  }
 
@@ -20,6 +19,7 @@
     font-size: 23px;
     color: #68759c;
     padding: 20px 0;
+    line-height: 27px;
  }
 
  .servicesHeader {
@@ -78,15 +78,16 @@
     color: #ed674a;
 }
 
-.servicesSingle,
-.petTitle {
+.servicesSingle {
     width: 65%;
-    margin: 350px auto 100px;
+    margin: 330px auto 100px;
     text-align: start;
 }
 
 .petTitle {
-    margin: 0 auto 100px;
+    width: 65%;
+    margin: 250px auto 100px;
+    text-align: start;
 }
 
 .petTitle span {
@@ -239,7 +240,8 @@
     
     .servicesTitle{
         width: 80%;
-        margin: 200px auto 0;
+        margin: 60px auto 0;
+        font-weight: bold;
     }
 
     .servicesTitle h1 {
@@ -302,13 +304,14 @@
 
     .petTitle {
         width: 80%;
-        margin: auto;
+        margin: 620px auto 0;
+        font-weight: bold;
     }
 
     .petProducts {
         background: none; 
         margin: 0;
-        margin-bottom: 600px;
+        margin-bottom: 410px;
     }
 
     .petTitle h1 {
@@ -332,13 +335,12 @@
             margin: initial;
         }
 
-    .packageLeft h3, .packageRight h3 {
-        margin-left: ; 
-        text-align: ;
-    }
-
     .servicesTitle {
         margin-top: 50px;
+    }
+
+    .petTitle {
+        margin-top: 1500px;
     }
 
     .servicesOrdering {
@@ -346,7 +348,7 @@
     }
      
     .petProducts {
-        margin-bottom: 1335px;
+        margin-bottom: 1190px;
     }
    
 }

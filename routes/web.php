@@ -17,21 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/usluge', function () {
-    return view('services');
-});
-
-Route::get('/kakoporuciti', function () {
-    return view('howitworks');
-});
-
-Route::get('/o-nama', function () {
-    return view('about');
-});
-
-Route::get('/kontakt', function () {
-    return view('contact');
-});
 
 
 Route::post('/send-email', 'SendEmailController@send');

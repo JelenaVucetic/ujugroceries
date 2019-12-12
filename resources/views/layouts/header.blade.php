@@ -9,13 +9,9 @@
                   <button>Poruči</button>
                 </div>
             </div>
-    <div class="container-fluid bottomHeader">
-        <span id="span" style="width: 100%;
-        height: 5px;
-        background: red;
-        display: block;"></span>
+    <div class="container-fluid bottomHeader" id="bottomHeader" >
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle mybtn" data-toggle="collapse" data-target="#myNavbar">
+        <button type="button" class="navbar-toggle mybtn" data-toggle="collapse" data-target="#myNavbar" onclick="myFunction()">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>                        
@@ -24,11 +20,11 @@
       </div>
       <div class="collapse navbar-collapse navbar-right myNav" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li {{ (current_page("/")) ? 'id=activeLInk' : '' }}><a href="/">Početna</a></li>
-          <li {{ (current_page("usluge")) ? 'id=activeLInk' : '' }}><a href="/usluge">UJU Usluge</a></li>
-          <li {{ (current_page("kakoporuciti")) ? 'id=activeLInk' : '' }}><a href="/kakoporuciti">Kako poručiti?</a></li>
-          <li {{ (current_page("o-nama")) ? 'id=activeLInk' : '' }}><a href="/o-nama">Zašto UJU?</a></li>
-          <li {{ (current_page("kontakt")) ? 'id=activeLInk' : '' }}><a href="/kontakt">Kontakt</a></li>
+          <li id="homepage" ><a href="#"> <span style="color: #ed674a;"> Početna </span></a></li>
+          <li id="services"><a href="#"> <span> UJU Usluge </span></a></li>
+          <li id="howToOrder"><a href="#"> <span> Kako poručiti? </span></a></li>
+          <li id="whyUju"><a href="#"> <span> Zašto UJU? </span></a></li>
+          <li id="contact"><a href="#"> <span> Kontakt </span></a></li>
         </ul>
       </div>
     </div>
